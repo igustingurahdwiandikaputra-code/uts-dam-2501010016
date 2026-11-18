@@ -1,0 +1,190 @@
+{
+  "judul": "Gabungan daya tarik wisata Bali + cuaca harian 2026 (ringkasan) + profil kabupaten/kota",
+  "pembuat": "I Gusti Ngurah Dwi Andika Putra (2501010016)",
+  "dibuat": "2026-11-18T03:58:55",
+  "berkas_hasil": "data/processed/gabungan_wisata_cuaca_profil_bali.csv",
+  "md5": "6538fdc835ad0c547f9ecf006192e9af",
+  "jumlah_baris": 108,
+  "jumlah_kolom": 19,
+  "kolom": {
+    "id_wisata": "object",
+    "nama_objek_wisata": "object",
+    "kabupaten_kota": "object",
+    "jenis_wisata": "object",
+    "latitude_kabupaten": "float64",
+    "longitude_kabupaten": "float64",
+    "jenis_normal": "object",
+    "suhu_rata2_c": "float64",
+    "suhu_maks_rata2_c": "float64",
+    "suhu_min_rata2_c": "float64",
+    "kelembapan_rata2_persen": "float64",
+    "hujan_total_mm": "float64",
+    "hari_hujan": "int64",
+    "angin_maks_kmh": "float64",
+    "jumlah_hari_cuaca": "int64",
+    "luas_km2": "float64",
+    "penduduk_2020": "int64",
+    "kepadatan_per_km2": "float64",
+    "jumlah_kecamatan": "int64"
+  },
+  "metode_gabung": {
+    "kunci": "kabupaten_kota",
+    "urutan": [
+      "wisata -> cuaca (left, m:1)",
+      "-> profil Wikipedia (left, m:1)"
+    ],
+    "catatan": "Cuaca harian diringkas per kabupaten/kota karena dataset wisata tidak memiliki tanggal kunjungan."
+  },
+  "bukti_tanpa_duplikasi": {
+    "baris_wisata_sebelum": 108,
+    "baris_gabungan_sesudah": 108,
+    "id_wisata_unik": true,
+    "baris_duplikat_penuh": 0,
+    "baris_tanpa_pasangan_cuaca": 0,
+    "baris_tanpa_pasangan_profil": 0
+  },
+  "periode_cuaca": {
+    "mulai": "2026-01-01",
+    "selesai": "2026-11-11"
+  },
+  "sumber": [
+    {
+      "sumber": "Daftar objek wisata Bali (berkas XLSX, sheet Wisata_108)",
+      "cara_akuisisi": "Berkas (diunduh/disusun manual)",
+      "url": "https://data.go.id/dataset/dataset/sebaran-daya-tarik-wisata-di-bali ; https://data.go.id/dataset/dataset/data-daya-tarik-wisata-alam-di-provinsi-bali",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "Tidak dicantumkan pada halaman dataset data.go.id (diperiksa pada tanggal akses)",
+      "berkas_raw": "data/raw/dataset_wisata_cuaca_bali_2026.xlsx",
+      "ukuran_byte": 134776,
+      "md5": "47152b5e47620f3a4628bdacdaf2def4",
+      "catatan": "Kompilasi merujuk portal. Keterangan di berkas: 'Pemprov Bali / Data.go.id sebagai referensi awal; daftar nama dikurasi untuk dataset tugas'. Status: perlu verifikasi ke dinas/portal resmi."
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Badung",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.65&longitude=115.18&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_badung_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13495,
+      "md5": "ab6b9c1e01e25429514fbc268f1c946c",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Bangli",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.45&longitude=115.35&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_bangli_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13477,
+      "md5": "835c94930db349fb14a859adce749cf2",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Buleleng",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.12&longitude=115.09&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_buleleng_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13389,
+      "md5": "e3a44668855e7764c9a4d62f88d0848f",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Denpasar",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.67&longitude=115.22&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_denpasar_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13497,
+      "md5": "89427ddb65f552b565c5deedcd2bf510",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Gianyar",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.54&longitude=115.33&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_gianyar_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13466,
+      "md5": "5f3ce2a8957e22a49cce9ea536d78f3b",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Jembrana",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.35&longitude=114.65&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_jembrana_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13474,
+      "md5": "332cecda17c76a5ce5e201a34d94ea1e",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Karangasem",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.45&longitude=115.61&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_karangasem_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13485,
+      "md5": "8913d306d28e1b46cf007633ecd576d4",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Klungkung",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.55&longitude=115.43&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_klungkung_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13479,
+      "md5": "cff9abdb4e880f8f669f487f767f1aa4",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "Open-Meteo cuaca harian - Tabanan",
+      "cara_akuisisi": "API",
+      "url": "https://archive-api.open-meteo.com/v1/archive?latitude=-8.54&longitude=115.13&start_date=2026-01-01&end_date=2026-11-11&daily=temperature_2m_mean%2Ctemperature_2m_max%2Ctemperature_2m_min%2Cprecipitation_sum%2Cwind_speed_10m_max%2Crelative_humidity_2m_mean&timezone=Asia%2FMakassar",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY 4.0 (atribusi: Weather data by Open-Meteo.com)",
+      "berkas_raw": "data/raw/openmeteo_tabanan_2026-01-01_2026-11-11.json",
+      "ukuran_byte": 13473,
+      "md5": "7833f2e0566a50098d620fa9d2dbc8ab",
+      "catatan": "Reanalisis berbasis grid; tanpa API key; zona waktu Asia/Makassar"
+    },
+    {
+      "sumber": "robots.txt Wikipedia (bukti kepatuhan)",
+      "cara_akuisisi": "Scraping (bukti)",
+      "url": "https://en.wikipedia.org/robots.txt",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "-",
+      "berkas_raw": "evidence/robots_en_wikipedia_org.txt",
+      "ukuran_byte": 28275,
+      "md5": "fc15d80fd6a4afd9f22975e740c1b48c",
+      "catatan": "Dasar keputusan scraping; lihat evidence/robots_check.json"
+    },
+    {
+      "sumber": "Wikipedia - List of districts in Bali",
+      "cara_akuisisi": "Scraping",
+      "url": "https://en.wikipedia.org/wiki/List_of_districts_in_Bali",
+      "tanggal_akses": "2026-11-18",
+      "lisensi": "CC BY-SA 4.0 (wajib atribusi)",
+      "berkas_raw": "data/raw/wikipedia_list_of_districts_in_bali.html",
+      "ukuran_byte": 297565,
+      "md5": "01f954531c42f6e59fe4418d1dcf8375",
+      "catatan": "HTML mentah; robots.txt diperiksa dan diizinkan"
+    }
+  ],
+  "atribusi": [
+    "Weather data by Open-Meteo.com (CC BY 4.0)",
+    "Wikipedia 'List of districts in Bali' (CC BY-SA 4.0)",
+    "Daftar objek wisata merujuk data.go.id (Pemprov Bali); lisensi tidak dicantumkan"
+  ],
+  "keterbatasan": "(1) Daftar 108 objek wisata adalah hasil kurasi dengan kuota seragam (12 objek per kabupaten/kota), bukan sensus seluruh daya tarik wisata Bali, sehingga tidak mewakili proporsi sebenarnya; kategori 'Alam' dominan (68 objek). (2) Koordinat bersifat representatif kabupaten/kota, bukan per objek, jadi cuaca yang digabungkan adalah cuaca wilayah, bukan lokasi objek. (3) Cuaca Open-Meteo berasal dari reanalisis model berbasis grid, bukan stasiun pengamatan. (4) Status objek belum diverifikasi ke dinas/portal resmi."
+}

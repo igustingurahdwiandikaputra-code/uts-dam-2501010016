@@ -1,0 +1,15 @@
+# Data Ethics Checklist
+
+I Gusti Ngurah Dwi Andika Putra (2501010016) - UTS Data Acquisition & Management - 2026-11-18
+
+| No | Aspek | Status | Bukti / Catatan |
+|---|---|---|---|
+| 1 | Sumber data dan URL dicantumkan | Ya | berkas: https://data.go.id/dataset/dataset/sebaran-daya-tarik-wisata-di-bali ; https://data.go.id/dataset/dataset/data-daya-tarik-wisata-alam-di-provinsi-bali; api: https://archive-api.open-meteo.com/v1/archive; scraping: https://en.wikipedia.org/wiki/List_of_districts_in_Bali (rinci di metadata/provenance.csv) |
+| 2 | Lisensi data diperiksa dan dicatat | Ya | data.go.id: lisensi tidak dicantumkan pada halaman dataset -> dipakai konservatif (akademik, non-komersial, beratribusi); Open-Meteo: CC BY 4.0; Wikipedia: CC BY-SA 4.0. Bukti: datagoid_sebaran_dtw: akses otomatis gagal (HTTPError); gunakan tangkapan layar manual di evidence/; datagoid_dtw_alam: akses otomatis gagal (HTTPError); gunakan tangkapan layar manual di evidence/; openmeteo_terms: tersimpan di evidence/lisensi_openmeteo_terms.html; openmeteo_docs: tersimpan di evidence/lisensi_openmeteo_docs.html |
+| 3 | robots.txt / Terms of Service diperiksa | Ya | Wikipedia: robots.txt status 200, boleh diakses=True, crawl-delay=None, dicek 2026-11-18T03:58:17; Open-Meteo: batas <10.000 panggilan/hari, non-komersial (halaman terms); data.go.id: berkas dirujuk manual, tidak di-scrape, halaman dataset diperiksa manual. |
+| 4 | Kolom PII diidentifikasi | Ya | 9 kolom diperiksa (nama kolom + pola isi). PII langsung: tidak ada; quasi-identifier: tidak ada. Alasan per kolom ada pada tabel 2.3. |
+| 5 | PII dihapus, di-mask, atau di-pseudonimisasi | NA | Tidak ada kolom PII: data berupa daftar objek wisata (nama tempat) dan wilayah kabupaten/kota, bukan data individu. |
+| 6 | Prinsip minimalisasi data diterapkan | Ya | Dipakai 6 kolom; dibuang: tahun_referensi_daftar, status_verifikasi, sumber_data (konstan/keterangan, sudah dicatat di provenance). |
+| 7 | Potensi bias sampel dianalisis | Ya | (1) Daftar 108 objek wisata adalah hasil kurasi dengan kuota seragam (12 objek per kabupaten/kota), bukan sensus seluruh daya tarik wisata Bali, sehingga tidak mewakili proporsi sebenarnya; kategori 'Alam' dominan (68 objek). (2) Koordinat bersifat representatif kabupaten/kota, bukan per objek, jadi cuaca yang digabungkan adalah cuaca wilayah, bukan lokasi objek. (3) Cuaca Open-Meteo berasal dari reanalisis model berbasis grid, bukan stasiun pengamatan. (4) Status objek belum diverifikasi ke dinas/portal resmi. |
+| 8 | Tujuan penggunaan data dinyatakan eksplisit | Ya | Menganalisis daya tarik wisata Bali per kabupaten/kota dengan profil wilayah dan kondisi cuaca 2026 untuk tugas UTS Data Acquisition & Management (INSTIKI); tujuan akademik non-komersial. |
+| 9 | Rencana retensi dan penghapusan data ada | Ya | Data mentah, hasil olahan, metadata, dan bukti disimpan di repository tugas sampai penilaian semester selesai, lalu repository dijadikan privat/dihapus; tidak ada data pribadi yang disimpan. Data cuaca dan HTML Wikipedia tidak dipublikasikan ulang di luar tugas ini. |
