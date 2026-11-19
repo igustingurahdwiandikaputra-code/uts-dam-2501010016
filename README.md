@@ -21,6 +21,15 @@ Tujuan proyek adalah membangun dataset gabungan yang dapat digunakan sebagai das
 | Open-Meteo Historical Weather API | API | Data cuaca harian tahun 2026 | CC BY 4.0; atribusi: Weather data by Open-Meteo.com |
 | Wikipedia — List of districts in Bali | Web scraping tabel HTML | Profil wilayah kabupaten/kota | CC BY-SA 4.0; pemeriksaan robots.txt dicatat dalam notebook |
 
+### URL sumber data
+
+- **Disparda Bali — Data Daya Tarik Wisata dan Desa Wisata:** https://disparda.baliprov.go.id/data-daya-tarik-wisata-dan-desa-wisata-tahun-2025-provinsi-bali
+- **Bali Satu Data — Data Daya Tarik Wisata Alam di Provinsi Bali:** https://balisatudata.baliprov.go.id/laporan/data-daya-tarik-wisata-alam-di-provinsi-bali
+- **Open-Meteo Historical Weather API (endpoint):** https://archive-api.open-meteo.com/v1/archive
+- **Dokumentasi Open-Meteo Historical Weather API:** https://open-meteo.com/en/docs/historical-weather-api
+- **Ketentuan Open-Meteo:** https://open-meteo.com/en/terms
+- **Wikipedia — List of districts in Bali:** https://en.wikipedia.org/wiki/List_of_districts_in_Bali
+
 Sumber dan URL rinci, tanggal akses, lisensi, checksum, serta lokasi berkas dicatat pada `metadata/provenance.csv` (dibuat saat notebook dijalankan).
 
 ## Cakupan
