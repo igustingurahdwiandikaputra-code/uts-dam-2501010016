@@ -1,109 +1,506 @@
-id_wisata,nama_objek_wisata,kabupaten_kota,jenis_wisata,latitude_kabupaten,longitude_kabupaten,jenis_normal,suhu_rata2_c,suhu_maks_rata2_c,suhu_min_rata2_c,kelembapan_rata2_persen,hujan_total_mm,hari_hujan,angin_maks_kmh,jumlah_hari_cuaca,luas_km2,penduduk_2020,kepadatan_per_km2,jumlah_kecamatan
-BALI001,Pantai Kuta,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI002,Pantai Legian,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI003,Pantai Seminyak,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI004,Pantai Petitenget,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI005,Pantai Berawa,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI006,Pantai Batu Bolong,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI007,Pantai Pandawa,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI008,Pantai Melasti,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI009,Pantai Balangan,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI010,Pantai Dreamland,Badung,Alam,-8.65,115.18,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI011,Pura Luhur Uluwatu,Badung,Budaya/Religi,-8.65,115.18,Budaya/Religi,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI012,Garuda Wisnu Kencana,Badung,Buatan/Budaya,-8.65,115.18,Buatan/Budaya,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,418.62,548191,1309.52,6
-BALI013,Gunung Batur,Bangli,Alam,-8.45,115.35,Alam,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI014,Danau Batur,Bangli,Alam,-8.45,115.35,Alam,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI015,Desa Penglipuran,Bangli,Budaya,-8.45,115.35,Budaya,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI016,Pura Ulun Danu Batur,Bangli,Budaya/Religi,-8.45,115.35,Budaya/Religi,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI017,Desa Trunyan,Bangli,Budaya,-8.45,115.35,Budaya,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI018,Air Terjun Tukad Cepung,Bangli,Alam,-8.45,115.35,Alam,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI019,Air Terjun Tibumana,Bangli,Alam,-8.45,115.35,Alam,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI020,Air Terjun Goa Raja,Bangli,Alam,-8.45,115.35,Alam,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI021,Museum Geopark Batur,Bangli,Edukasi,-8.45,115.35,Edukasi,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI022,Penelokan Kintamani,Bangli,Alam,-8.45,115.35,Alam,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI023,Desa Wisata Pengotan,Bangli,Budaya,-8.45,115.35,Budaya,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI024,Pura Kehen,Bangli,Budaya/Religi,-8.45,115.35,Budaya/Religi,23.21,27.35,19.97,83.29,1451.7,211,26.6,315,490.71,258191,526.16,4
-BALI025,Pantai Lovina,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI026,Air Terjun Gitgit,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI027,Air Terjun Sekumpul,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI028,Air Terjun Aling-Aling,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI029,Air Terjun Banyumala,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI030,Air Terjun Munduk,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI031,Danau Buyan,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI032,Danau Tamblingan,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI033,Pura Beji Sangsit,Buleleng,Budaya/Religi,-8.12,115.09,Budaya/Religi,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI034,Pura Meduwe Karang,Buleleng,Budaya/Religi,-8.12,115.09,Budaya/Religi,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI035,Desa Munduk,Buleleng,Budaya/Alam,-8.12,115.09,Alam/Budaya,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI036,Pantai Pemuteran,Buleleng,Alam,-8.12,115.09,Alam,27.43,30.59,24.2,71.72,1242.7,115,29.5,315,1364.73,791813,580.2,9
-BALI037,Pantai Sanur,Denpasar,Alam,-8.67,115.22,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI038,Pantai Matahari Terbit,Denpasar,Alam,-8.67,115.22,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI039,Pantai Mertasari,Denpasar,Alam,-8.67,115.22,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI040,Pantai Sindhu,Denpasar,Alam,-8.67,115.22,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI041,Pantai Karang,Denpasar,Alam,-8.67,115.22,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI042,Pantai Segara Ayu,Denpasar,Alam,-8.67,115.22,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI043,Monumen Bajra Sandhi,Denpasar,Sejarah/Budaya,-8.67,115.22,Budaya/Sejarah,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI044,Museum Bali,Denpasar,Sejarah/Budaya,-8.67,115.22,Budaya/Sejarah,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI045,Taman Werdhi Budaya Art Centre,Denpasar,Budaya,-8.67,115.22,Budaya,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI046,Pura Jagatnatha,Denpasar,Budaya/Religi,-8.67,115.22,Budaya/Religi,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI047,Hutan Mangrove Tahura Ngurah Rai,Denpasar,Alam,-8.67,115.22,Alam,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI048,Pasar Badung,Denpasar,Budaya,-8.67,115.22,Budaya,26.13,29.34,23.2,80.77,1517.1,189,32.8,315,127.78,725314,5676.27,4
-BALI049,Kawasan Wisata Ubud,Gianyar,Budaya,-8.54,115.33,Budaya,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI050,Monkey Forest Ubud,Gianyar,Alam/Buatan,-8.54,115.33,Alam/Buatan,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI051,Tegallalang Rice Terrace,Gianyar,Alam,-8.54,115.33,Alam,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI052,Goa Gajah,Gianyar,Sejarah/Budaya,-8.54,115.33,Budaya/Sejarah,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI053,Gunung Kawi Tampaksiring,Gianyar,Sejarah/Budaya,-8.54,115.33,Budaya/Sejarah,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI054,Tirta Empul,Gianyar,Budaya/Religi,-8.54,115.33,Budaya/Religi,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI055,Air Terjun Tegenungan,Gianyar,Alam,-8.54,115.33,Alam,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI056,Air Terjun Kanto Lampo,Gianyar,Alam,-8.54,115.33,Alam,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI057,Desa Celuk,Gianyar,Kerajinan/Budaya,-8.54,115.33,Budaya/Kerajinan,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI058,Desa Mas,Gianyar,Kerajinan/Budaya,-8.54,115.33,Budaya/Kerajinan,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI059,Bali Safari and Marine Park,Gianyar,Buatan,-8.54,115.33,Buatan,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI060,Museum Puri Lukisan,Gianyar,Seni/Budaya,-8.54,115.33,Budaya/Seni,25.58,29.88,21.94,81.45,1501.2,200,27.4,315,368.0,515344,1403.11,7
-BALI061,Pantai Medewi,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI062,Pantai Perancak,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI063,Pantai Baluk Rening,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI064,Pantai Pengeragoan,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI065,Pantai Delod Berawah,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI066,Pantai Candikusuma,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI067,Taman Nasional Bali Barat,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI068,Pulau Menjangan,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI069,Bendungan Palasari,Jembrana,Buatan/Alam,-8.35,114.65,Alam/Buatan,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI070,Pura Rambut Siwi,Jembrana,Budaya/Religi,-8.35,114.65,Budaya/Religi,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI071,Museum Manusia Purba Gilimanuk,Jembrana,Sejarah/Edukasi,-8.35,114.65,Edukasi/Sejarah,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI072,Pantai Yeh Leh,Jembrana,Alam,-8.35,114.65,Alam,26.17,29.28,23.62,80.15,911.3,150,27.0,315,841.8,317064,376.65,5
-BALI073,Pura Besakih,Karangasem,Budaya/Religi,-8.45,115.61,Budaya/Religi,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI074,Taman Ujung Sukasada,Karangasem,Sejarah/Buatan,-8.45,115.61,Buatan/Sejarah,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI075,Tirta Gangga,Karangasem,Sejarah/Buatan,-8.45,115.61,Buatan/Sejarah,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI076,Pantai Amed,Karangasem,Alam,-8.45,115.61,Alam,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI077,Pantai Virgin (Bias Putih),Karangasem,Alam,-8.45,115.61,Alam,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI078,Pantai Candidasa,Karangasem,Alam,-8.45,115.61,Alam,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI079,Pantai Blue Lagoon Padangbai,Karangasem,Alam,-8.45,115.61,Alam,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI080,Desa Tenganan Pegringsingan,Karangasem,Budaya,-8.45,115.61,Budaya,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI081,Gunung Agung,Karangasem,Alam,-8.45,115.61,Alam,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI082,Lahangan Sweet,Karangasem,Alam,-8.45,115.61,Alam,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI083,Bukit Asah Bugbug,Karangasem,Alam,-8.45,115.61,Alam,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI084,Pura Lempuyang Luhur,Karangasem,Budaya/Religi,-8.45,115.61,Budaya/Religi,24.79,28.16,22.12,83.03,1765.7,225,31.1,315,839.54,492402,586.51,8
-BALI085,Kelingking Beach,Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI086,Broken Beach (Pasih Uug),Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI087,Angel’s Billabong,Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI088,Crystal Bay,Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI089,Atuh Beach,Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI090,Diamond Beach,Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI091,Peguyangan Waterfall,Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI092,Goa Giri Putri,Klungkung,Budaya/Religi,-8.55,115.43,Budaya/Religi,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI093,Desa Kampung Kusamba,Klungkung,Budaya,-8.55,115.43,Budaya,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI094,Kerta Gosa,Klungkung,Sejarah/Budaya,-8.55,115.43,Budaya/Sejarah,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI095,Monumen Puputan Klungkung,Klungkung,Sejarah,-8.55,115.43,Sejarah,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI096,Pantai Tegal Besar,Klungkung,Alam,-8.55,115.43,Alam,25.78,29.63,22.71,79.14,1304.5,202,29.5,315,315.0,206925,656.9,4
-BALI097,Pura Tanah Lot,Tabanan,Budaya/Religi,-8.54,115.13,Budaya/Religi,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI098,Jatiluwih Rice Terraces,Tabanan,Alam/Budaya,-8.54,115.13,Alam/Budaya,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI099,Pura Ulun Danu Beratan,Tabanan,Budaya/Religi,-8.54,115.13,Budaya/Religi,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI100,Danau Beratan,Tabanan,Alam,-8.54,115.13,Alam,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI101,Kebun Raya Bali,Tabanan,Alam/Edukasi,-8.54,115.13,Alam/Edukasi,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI102,Pantai Kedungu,Tabanan,Alam,-8.54,115.13,Alam,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI103,Pantai Soka,Tabanan,Alam,-8.54,115.13,Alam,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI104,Pantai Pasut,Tabanan,Alam,-8.54,115.13,Alam,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI105,Pantai Yeh Gangga,Tabanan,Alam,-8.54,115.13,Alam,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI106,Air Terjun Blahmantung,Tabanan,Alam,-8.54,115.13,Alam,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI107,Museum Subak,Tabanan,Edukasi/Budaya,-8.54,115.13,Budaya/Edukasi,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
-BALI108,Desa Wisata Pinge,Tabanan,Budaya,-8.54,115.13,Budaya,25.45,30.13,21.87,81.98,1881.6,214,27.3,315,1013.88,461630,455.32,10
+id_wisata,nama_objek_wisata,kabupaten_kota,jenis_wisata,status_standar,latitude_kabupaten,longitude_kabupaten,jenis_normal,suhu_rata2_c,suhu_maks_rata2_c,suhu_min_rata2_c,kelembapan_rata2_persen,hujan_total_mm,hari_hujan,angin_maks_kmh,jumlah_hari_cuaca,luas_km2,penduduk_2020,kepadatan_per_km2,jumlah_kecamatan
+BALI001,Air Terjun Nungnung,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI002,Alas Pala Sangeh,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI003,Bali Elephant Camp,Badung,Buatan,Sudah sesuai standar,-8.65,115.18,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI004,Desa Wisata Baha,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI005,Pantai Batu Pageh,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI006,Pantai Berawa,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI007,Pantai Canggu,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI008,Pantai Geger Sawangan,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI009,Pantai Jimbaran,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI010,Pantai Kedonganan,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI011,Pantai Kuta,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI012,Pantai Labuan Sait,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI013,Pantai Legian,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI014,Pantai Melasti,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI015,Pantai Nusa Dua,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI016,Pantai Nyang-Nyang,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI017,Pantai Padang-Padang,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI018,Pantai Pandawa (Peraturan Bupati Badung Nomor 43 Tahun 2014),Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI019,Pantai Peti Tenget,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI020,Pantai Samuh,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI021,Pantai Seseh,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI022,Pantai Suluban,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI023,Pantai Tanjung Benoa,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI024,Pelestarian Penyu di Deluang Tanjung Benoa,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI025,Taman Rekreasi Hutan Bakau Tanjung Benoa,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI026,Tanah Wuk,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI027,Water Blow Peninsula Nusa Dua,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI028,Wisata Agro Pelaga,Badung,Alam,Sudah sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI029,Pantai Kelan Perbup Nomor 200/041/HK/2022tgl 9 Mei 2022,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI030,Pantai Seminyak Perbup Nomor 200/041/HK/2022tgl 9 Mei 2022,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI031,Pancoran Solas Taman Beji Paluh Perbup Nomor 200/041/HK/2022tgl 9 Mei 2022,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI032,Pantai Cemagi Perbup Nomor 200/041/HK/2022tgl 9 Mei 2022,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI033,Pantai Munggu Perbup Nomor 200/041/HK/2022tgl 9 Mei 2022,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI034,Air Terjun Goa Gong Sulangai/Plaga Perbup Nomor 200/041/HK/2022tgl 9 Mei 2022,Badung,Alam,Belum sesuai standar,-8.65,115.18,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI035,Garuda Wisnu Kencana,Badung,Budaya,Sudah sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI036,Kawasan Luar Pura Puncak Tedung,Badung,Budaya,Belum sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI037,Kawasan Luar Pura Taman Ayun,Badung,Budaya,Sudah sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI038,Kawasan Luar Pura Uluwatu,Badung,Budaya,Sudah sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI039,Kawasan Pura Keraban Langit,Badung,Budaya,Belum sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI040,Monumen Tragedi Kemanusiaan (MTK),Badung,Budaya,Belum sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI041,Pancoran Solas Taman Taman Mumbul,Badung,Budaya,Sudah sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI042,Pura Sada Kapal,Badung,Budaya,Belum sesuai standar,-8.65,115.18,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI043,Kawasan Jembatan Tukad Bangkung,Badung,Buatan,Belum sesuai standar,-8.65,115.18,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI044,Waterboom,Badung,Buatan,Sudah sesuai standar,-8.65,115.18,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI045,Bumi Perkemahan Blahkiuh,Badung,Buatan,Belum sesuai standar,-8.65,115.18,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI046,Taman Wisata Gerih Perbup Nomor 200/041/HK/2022tgl 9 Mei 2022,Badung,Buatan,Belum sesuai standar,-8.65,115.18,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,418.62,548191,1309.52,6
+BALI047,Agro Kopi Arabika dan Jeruk,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI048,Air Terjun Desa Bunutin,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI049,Air Terjun Kuning,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI050,Air Terjun Kubu Salya,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI051,Air Terjun Kutuh,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI052,Air Terjun Yeh Mampeh,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI053,Bukit Demulih,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI054,Bukit Jati,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI055,Bukit Pulasari,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI056,Bukit Serokadan,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI057,Desa Songan,Bangli,Alam,Sudah sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI058,Taman Sari/Undisan,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI059,Eko Wisata Bukit Cemeng,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI060,Goa dan Mata Air Pulasari,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI061,Lembah Pantunan,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI062,Panorama Desa Jehem,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI063,Pendakian Gunung Abang,Bangli,Alam,Sudah sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI064,Pendakian Gunung Batur,Bangli,Alam,Sudah sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI065,Taman Sari,Bangli,Alam,Belum sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI066,Ekowisata Bukit Bangli,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI067,Pendakian Gunung Batur,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI068,Twin Hill Guliang Kawan,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI069,Air Terjun Cekeng,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI070,Tirta Sala,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI071,Air Terjun Dedari Jelekungkang,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI072,Air Terjun Krisik Tembuku,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI073,Air Terjun Goa Giri Tembuku,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI074,Air Terjun Tangkub Tembuku,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI075,Air Terjun Subak Tampuagan,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI076,Air Terjun Tibumana Bangun Lemah,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI077,Air Terjun Tukad Cepung Penida Kelod,Bangli,Alam,Tidak tercantum,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI078,Goa Raja Jehem,Bangli,Alam,Sudah sesuai standar,-8.45,115.35,Alam,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI079,Candi Tebing,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI080,Dalem Balingkang,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI081,Desa Adat Pengotan,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI082,Desa Batukaang,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI083,Desa Tradisional Bayunggede,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI084,Desa Wisata Penglipuran,Bangli,Budaya,Sudah sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI085,Peninggalan Lesung,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI086,Pura Dalem Bangun Lemah,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI087,Pura Kehen,Bangli,Budaya,Sudah sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI088,Dalem Jawa (Pura Langgar),Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI089,Pura Penulisan,Bangli,Budaya,Sudah sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI090,Pura Pucak Sari,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI091,Pura Puser Tasik,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI092,Pura Taman Bali Raja,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI093,Pura Tirta Payuk,Bangli,Budaya,Belum sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI094,Terunyan,Bangli,Budaya,Sudah sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI095,Sarkopagus Dukuh Payu,Bangli,Budaya,Tidak tercantum,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI096,Batur,Bangli,Budaya,Sudah sesuai standar,-8.45,115.35,Budaya,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI097,Museum Gunung Api Batur,Bangli,Buatan,Sudah sesuai standar,-8.45,115.35,Buatan,23.21,27.35,19.98,83.31,1460.1,212,26.6,316,490.71,258191,526.16,4
+BALI098,Air Panas Banyuwedang,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI099,Air Panas Banjar,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI100,Air Terjun Aling-Aling,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI101,Air Terjun Banyumala,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI102,Air Terjun Bengbengan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI103,Air Terjun Bertingkat,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI104,Air Terjun Bukit Lalang,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI105,Air Terjun Campuhan,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI106,Air Terjun Carat,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI107,Air Terjun Cinta,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI108,Air Terjun Fiji,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI109,Air Terjun Gitgit,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI110,Air Terjun Ikut Sampi,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI111,Air Terjun Jembong,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI112,Air Terjun Kembar,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI113,Air Terjun Kroya,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI114,Air terjun Melanting,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI115,Air terjun Pengumbahan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI116,Air Terjun Pucuk,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI117,Air Terjun Sekumpul,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI118,Air Terjun Singsing,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI119,Air terjun Tadah Hujan Campur rasa,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI120,Air Terjun Teja,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI121,Air Terjun Yeh Mampeh Lemukih,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI122,Air Terjun Yeh Mampeh Les,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI123,Air terjun colek pamor,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI124,Bali Sport Canyoning,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI125,Bukit Teletubis,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI126,Danau Buyan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI127,Danau Tamblingan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI128,Hutan Raya Selat,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI129,Kolam Renang Air Sanih,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI130,Monkey Forest Wanagiri,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI131,Pantai Kerobokan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI132,Pantai Lovina,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI133,Pantai Penimbangan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI134,Perkebunan Anggur Rakyat Den Carik,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI135,Permandian Manuksesa,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI136,Permandian Sungai Abasan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI137,Rice field Terrace Kekeran,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI138,Rice field Terrace Umajero,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI139,Taman Laut Desa Les,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI140,Taman Laut P. Menjangan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI141,Taman Laut Pemuteran,Buleleng,Alam,Sudah sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI142,Taman Nasional Bali Barat,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI143,Taman Segara Desa Penuktukan,Buleleng,Alam,Belum sesuai standar,-8.12,115.09,Alam,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI144,Brahma Wihara Arama,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI145,Desa Tua Banyuseri,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI146,Desa Tua Bulian,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI147,Desa Tua Cempaga,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI148,Desa Tua Julah,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI149,Desa Tua Pedawa,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI150,Desa Tua Sembiran,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI151,Desa Tua Sidatapa,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI152,Desa Tua Tigawasa,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI153,Eks Pelabuhan Buleleng,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI154,Gedong Kertya,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI155,Linggam Ciwa Desa Unggahan,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI156,Lingkungan Pura Beji,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI157,Lingkungan Pura Dalem Jagaraga,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI158,Lingkungan Pura Dalem Sangsit,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI159,Lingkungan Pura Meduwe Karang,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI160,Lingkungan Pura Ponjok Batu,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI161,Lingkungan Pura Pulaki dan Pasanakannya,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI162,Lingkungan Pura Puncak Sinunggal,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI163,Lingkungan Pura Taman Kelentingsari,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI164,Monumen Perang Jagaraga,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI165,Monumen Tri Yuda Sakti,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI166,Museum Buleleng,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI167,Perang Gebeg,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI168,Perang Pakpak,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI169,Pura Batu Kursi,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI170,Pura Jaya Prana,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI171,Puri Buleleng,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI172,Puri Kanginan,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI173,Situs Budha,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI174,Tugu Bhuana Kerta,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI175,Tugu Singa Ambara Raja,Buleleng,Budaya,Belum sesuai standar,-8.12,115.09,Budaya,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI176,Bendungan Renon,Buleleng,Buatan,Belum sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI177,Bali Park Dasong,Buleleng,Buatan,Belum sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI178,Bendungan Titab,Buleleng,Buatan,Belum sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI179,Grand Surya Waterpark,Buleleng,Buatan,Belum sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI180,Kolam Renang Silangjana,Buleleng,Buatan,Sudah sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI181,Krisna Adventure,Buleleng,Buatan,Belum sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI182,Krisna Funtastic Land,Buleleng,Buatan,Belum sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI183,Krisna Watersport,Buleleng,Buatan,Belum sesuai standar,-8.12,115.09,Buatan,27.43,30.6,24.21,71.7,1242.7,115,29.5,316,1364.73,791813,580.2,9
+BALI184,Desa Budaya Kertalangu,Denpasar,Alam,Sudah sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI185,Ekowisata Subak Anggabaya,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI186,Ekowisata Subak Sembung,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI187,Estuari Dam Tukad Badung,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI188,Hutan Mangrove,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI189,Muntig Siokan (Dream Island),Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI190,Pantai Biaung,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI191,Pantai Cemara Alit,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI192,Pantai Duyung,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI193,Pantai Karang,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI194,Pantai Kesumasari,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI195,Pantai Matahari Terbit,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI196,Pantai Mertasari,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI197,Pantai Pengembak,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI198,Pantai Sanur,Denpasar,Alam,Sudah sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI199,Pantai Segara Ayu,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI200,Pantai Serangan,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI201,Pantai Shindu,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI202,Pantai Sukamerta,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI203,Pantai Tangtu,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI204,Subak Intaran Barat dan Timur,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI205,Subak Kerdung,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI206,Tukad Badung,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI207,Tukad Bindu,Denpasar,Alam,Belum sesuai standar,-8.67,115.22,Alam,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI208,Monumen Perjuangan Rakyat Bali,Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI209,Museum 3D (I am Bali),Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI210,Museum Bali,Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI211,Museum Le Mayeur,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI212,Museum Lukisan Sidik Jari,Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI213,Pasar Badung,Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI214,Pasar Kreneng,Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI215,Pasar Kumbasari,Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI216,Pasar Sindhu,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI217,Patung Catur Muka,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI218,Pura Agung Jagatnatha,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI219,Pura Campuhan Windu Segara,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI220,Pura Dalem Cemara,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI221,Pura Geriya Tanah Kilap,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI222,Pura Luhur Candi Narmada,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI223,Pura Maospahit,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI224,Pura Petilan Pengerebongan,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI225,Pura Sakenan,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI226,Puri Agung Jrokuta,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI227,Sekaa Barong & Keris Sari Wisata Budaya,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI228,Sekaa Barong & Keris Uma Dewi Budaya,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI229,Sekaa Barong Eka Budhi,Denpasar,Budaya,Belum sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI230,Taman Budaya (Art Center),Denpasar,Budaya,Sudah sesuai standar,-8.67,115.22,Budaya,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI231,Big Garden Corner,Denpasar,Buatan,Sudah sesuai standar,-8.67,115.22,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI232,Duta Orchid Garden,Denpasar,Buatan,Sudah sesuai standar,-8.67,115.22,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI233,Kebon Vintage Cars,Denpasar,Buatan,Sudah sesuai standar,-8.67,115.22,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI234,Lapangan I Gusti Ngurah Made Agung,Denpasar,Buatan,Belum sesuai standar,-8.67,115.22,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI235,Taman Kota Lumintang,Denpasar,Buatan,Belum sesuai standar,-8.67,115.22,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI236,Turtle Conservation and Education Center (TCEC),Denpasar,Buatan,Belum sesuai standar,-8.67,115.22,Buatan,26.14,29.35,23.21,80.78,1519.2,190,32.8,316,127.78,725314,5676.27,4
+BALI237,Air Terjun Tegenungan,Gianyar,Alam,Sudah sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI238,Ceking Panorama,Gianyar,Alam,Sudah sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI239,Kokokan,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI240,Kolam Renang Bukit Jati,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI241,Lembah sungai Ayung,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI242,Lembah Sungai Petanu,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI243,Lembah Sungai Wos,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI244,Lembah Sungai Sangsang,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI245,Lembu Putih,Gianyar,Alam,Sudah sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI246,Wanara Wana Lk. Pura Dalem,Gianyar,Alam,Sudah sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI247,Pancoran 11 Macam,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI248,Pantai Air Jeruk,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI249,Pantai Cucukan,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI250,Pantai Lebih,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI251,Pantai Masceti,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI252,Pantai Saba,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI253,Pantai Selukat,Gianyar,Alam,Sudah sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI254,Pantai Siyut,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI255,Stage Sidan dan Alam Sidan,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI256,Taman Kemuda Saraswati,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI257,Tegal Jambangan,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI258,Wisata Remaja Bukit Jati,Gianyar,Alam,Belum sesuai standar,-8.54,115.33,Alam,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI259,Bukit Dharma Durga Kutri,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI260,Candi Tebing Sumita,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI261,Candi Tebing Pejeng Kangin,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI262,Candi Tebing Tegalinggah,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI263,Desa Batuan,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI264,Desa Batubulan,Gianyar,Budaya,Sudah sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI265,Desa Bona,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI266,Desa Celuk,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI267,Desa Mas,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI268,Desa Peliatan,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI269,Goa Alam,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI270,Goa Gajah,Gianyar,Budaya,Sudah sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI271,Goa Garba dan Lk. Pura Ukur-Ukuran,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI272,Gunung Kawi Sebatu,Gianyar,Budaya,Sudah sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI273,Gunung Kawi Tampaksiring,Gianyar,Budaya,Sudah sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI274,Kelurahan Gianyar,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI275,Kelurahan Ubud,Gianyar,Budaya,Sudah sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI276,Lingkungan Pura Gaduh Blahbatuh,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI277,Lingkungan Pura Kebo Edan,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI278,Lingkungan Pura Mengening,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI279,Lk. Pura Penataran Sasih,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI280,Lk. Pura Puseh Canggi,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI281,Mandala Wisata Samuan Tiga,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI282,Museum Purbakala,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI283,Puri Agung Gianyar,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI284,Relief Bitera,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI285,Relief Yeh Pulu,Gianyar,Budaya,Sudah sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI286,Sindu Raja,Gianyar,Budaya,Belum sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI287,Tirta Empul,Gianyar,Budaya,Sudah sesuai standar,-8.54,115.33,Budaya,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI288,Taman Burung Citra Internasional,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI289,Taman Safari,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI290,Bali Zoo,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI291,Museum Antonio Blanco,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI292,Museum Arma,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI293,Museum Neka,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI294,Museum Puri Lukisan,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI295,Museum Rudana,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI296,Rimba Reptil,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI297,Wisata Gajah,Gianyar,Buatan,Sudah sesuai standar,-8.54,115.33,Buatan,25.58,29.88,21.95,81.46,1505.9,201,27.4,316,368.0,515344,1403.11,7
+BALI298,Pantai Yeh Leh,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI299,Pantai Pangyangan,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI300,Desa Wisata Gumbrih,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI301,Pantai Pekutatan,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI302,Bunut Bolong,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI303,Air Terjun Juwuk Manis,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI304,Pantai Medewi,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI305,Desa Wisata Yehembang Kangin,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI306,Pantai Delod Berawah,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI307,Sungai Gelar,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI308,Batu Belah,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI309,Pantai Baluk Rening,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI310,Pantai Candikusuma,Jembrana,Alam,Belum sesuai standar,-8.35,114.65,Alam,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI311,Desa Wisata Blimbingsari,Jembrana,Alam/Budaya,Belum sesuai standar,-8.35,114.65,Alam/Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI312,Desa Wisata Ekasari,Jembrana,Alam/Budaya,Belum sesuai standar,-8.35,114.65,Alam/Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI313,Desa Wisata Perancak,Jembrana,Alam/Buatan,Belum sesuai standar,-8.35,114.65,Alam/Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI314,Puncak JR,Jembrana,Alam/Buatan,Belum sesuai standar,-8.35,114.65,Alam/Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI315,Puncak Mawar,Jembrana,Alam/Buatan,Belum sesuai standar,-8.35,114.65,Alam/Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI316,Teluk Gilimanuk,Jembrana,Alam/Buatan,Sudah sesuai standar,-8.35,114.65,Alam/Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI317,Pura Rambut Siwi,Jembrana,Budaya,Sudah sesuai standar,-8.35,114.65,Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI318,Desa Wisata Sangkaragung,Jembrana,Budaya,Belum sesuai standar,-8.35,114.65,Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI319,Makam Tua Buyut Lebai,Jembrana,Budaya,Belum sesuai standar,-8.35,114.65,Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI320,Makam Ustad Ali Bafaqih,Jembrana,Budaya,Belum sesuai standar,-8.35,114.65,Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI321,Pura Gede Perancak,Jembrana,Budaya,Belum sesuai standar,-8.35,114.65,Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI322,Museum Purbakala Gilimanuk,Jembrana,Budaya,Belum sesuai standar,-8.35,114.65,Budaya,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI323,Bendungan Benel,Jembrana,Buatan,Belum sesuai standar,-8.35,114.65,Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI324,Bendungan Palasari,Jembrana,Buatan,Belum sesuai standar,-8.35,114.65,Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI325,Green Cliff Banjar Bangli,Jembrana,Buatan,Belum sesuai standar,-8.35,114.65,Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI326,Kolam Renang Delod Berawah,Jembrana,Buatan,Belum sesuai standar,-8.35,114.65,Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI327,Rest Area Rambut Siwi,Jembrana,Buatan,Belum sesuai standar,-8.35,114.65,Buatan,26.18,29.28,23.62,80.15,914.8,151,27.0,316,841.8,317064,376.65,5
+BALI328,Abian Canang Hill,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI329,Agro Kebun Salak Sibetan,Karangasem,Alam,Sudah sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI330,Air Terjun batu Engsel,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI331,Air Terjun Grojog Sambeh Yeh Poh,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI332,Air Terjun Jaga Satru,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI333,Air Terjun Manik Botoh,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI334,Air Terjun Mayura,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI335,Air Terjun Tibumati,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI336,Air Terjun Yeh labuh dan Tibu Kresek,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI337,Amed,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI338,Pesona Bukit Asah,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI339,Bukit Gumang,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI340,Bukit Guwungan,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI341,Bukit Jambul,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI342,Bukit Surga,Karangasem,Alam,Sudah sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI343,Bumi Perkemahan Hutan Pinus,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI344,Danau Yeh Malet,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI345,Garden Stone Bali,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI346,Pesona Alam Iseh,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI347,Jemeluk,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI348,Kusambi,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI349,Labuhan Amuk,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI350,Maha wana Basuki,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI351,Pesona Alam Munti Gunung,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI352,Padangbai,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI353,Pantai Batu Belah,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI354,Pantai Batumadeg Nyuh Tebel,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI355,Pantai Bias Tugel,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI356,Pantai Blue Lagoon,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI357,Pantai Buitan,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI358,Pantai Candidasa,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI359,Pantai Jasri,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI360,Pantai Kubu,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI361,Pantai Mendira,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI362,Pantai Pasir Putih,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI363,Pantai Penyucian Tapak Lawang,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI364,Pantai Peselatan,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI365,Pantai Tukad Abu,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI366,Pantai Ulakan,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI367,Pantai Yeh Kali,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI368,Pemukuran,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI369,Pesona Alam Gunung Agung,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI370,Pesona Alam Kastala,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI371,Pesona Alam Sangkan Gunung,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI372,Pesona Alam Tegenan,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI373,Pesona Bukit Batu Belah Antiga,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI374,Pesona Bukit Lempuyang,Karangasem,Alam,Sudah sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI375,Pesona Embung Batu Dawa,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI376,Pesona Embung Kedampal,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI377,Pesona Kebun Bunga Besakih,Karangasem,Alam,Sudah sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI378,Putung,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI379,Subak Patolan,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI380,Tukad Telaga Waja,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI381,Tanah Ampo,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI382,Pesona Alam Tebola,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI383,Telaga Tista,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI384,Tirta Ujung,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI385,Tulamben,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI386,Wahyu Karya Sedana,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI387,Pantai Wates Yeh Malet,Karangasem,Alam,Belum sesuai standar,-8.45,115.61,Alam,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI388,Lingkungan Pura Agung Besakih,Karangasem,Budaya,Sudah sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI389,Lingkungan Pura Andakasa,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI390,Lingkungan Pura Dewangga,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI391,Lingkungan Pura Penataran Agung Nangka,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI392,Lingkungan Pura Silayukti,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI393,Lingkungan Toya Sah,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI394,Makam Habib Ali Kecicang,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI395,Museum Lontar Dukuh Penaban,Karangasem,Budaya,Sudah sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI396,Puri Karangasem,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI397,Situs Yeh Masam,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI398,Taman Soekasada Ujung,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI399,Taman Tirta Gangga,Karangasem,Budaya,Sudah sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI400,Tenganan Dauh Tukad,Karangasem,Budaya,Belum sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI401,Tenganan Pegeringsingan,Karangasem,Budaya,Sudah sesuai standar,-8.45,115.61,Budaya,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI402,Bukit Lemped,Karangasem,Buatan,Belum sesuai standar,-8.45,115.61,Buatan,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI403,Embung Seraya,Karangasem,Buatan,Belum sesuai standar,-8.45,115.61,Buatan,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI404,Rumah Pohon Temega,Karangasem,Buatan,Belum sesuai standar,-8.45,115.61,Buatan,24.79,28.16,22.13,83.02,1767.8,226,31.1,316,839.54,492402,586.51,8
+BALI405,Angel's Billabong,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI406,Atuh Cliff,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI407,Batu Belek (Devils Tears),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI408,Blue Lagoon/Teluk Luah,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI409,Bukit Abangan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI410,Bukit Blubuh (Bukit Teletubbies),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI411,Bukit Nunggul,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI412,Goa Peninggalan Jepang,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI413,Gua Betel,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI414,Hutan Mangrove,Klungkung,Alam,Sudah sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI415,Kawasan Tukad Melangit,Klungkung,Alam,Sudah sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI416,Kawasan Tukad Unda,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI417,Lingkungan Goa Lawah,Klungkung,Alam,Sudah sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI418,Mata Air Temeling,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI419,Panorama Point,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI420,Pantai Atuh,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI421,Pantai Batu Klotok,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI422,Pantai Gamat,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI423,Pantai Klingking dan Paluang,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI424,Pantai Kusamba,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI425,Pantai Lepang,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI426,Pantai Pemuntalan (Dream Beach),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI427,Pantai Segara Penida (Crystal Bay),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI428,Pantai Suwehan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI429,Pantai Tanjung Sangiang (Mushroom Beach),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI430,Pasih Andus (smoke beach),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI431,Pasih Uwug (Broken Beach),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI432,Puncak Sari,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI433,Saren Cliff,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI434,Tanjung Banah,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI435,Tanjung Sedihing,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI436,Bukit Sunrise,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI437,Pantai Selagimpak/ Tamarind Beach,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI438,Pantai Ceningan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI439,Pantai Pegadungan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI440,Pantai Jungutbatu/Tanjung Ental,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI441,Pantai Song Lambung/ Secret Bay,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI442,Pantai Pemalikan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI443,Pantai Mangrove / Pantai Sakenan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI444,Pantai Sental,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI445,Mata Air Seganing,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI446,Mata Air Peguyangan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI447,Pantai Buyuk,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI448,Pantai Celagi Landan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI449,Pantai Toyapakeh,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI450,Pantai Sampalan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI451,Pantai Malibu,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI452,Pantai Batu Meling,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI453,Pantai Pandan /Pandan Bay,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI454,Pantai Batumulapan,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI455,Pantai Suana,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI456,Teluk Luah/Batu Melawang,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI457,Gua Kentung,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI458,Labuan Ampuak dan Teluk Sebila ( Kawasan Batu Abah ),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI459,Batu Melawang,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI460,Tanjung Juntil,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI461,Pantai Diamond,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI462,Pantai Sebela ( Pantai Isabela),Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI463,Manta Cliff,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI464,Gua Gede,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI465,Pantai Rahwana,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI466,Puncak Mundi,Klungkung,Alam,Belum sesuai standar,-8.55,115.43,Alam,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI467,Desa Kamasan,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI468,Desa Tihingan,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI469,Kertha Gosa dan Taman Gili,Klungkung,Budaya,Sudah sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI470,Lingkungan Desa Gelgel,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI471,Lingkungan Kentel Gumi,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI472,Lingkungan Taman Sari dan Penataran Agung,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI473,Monumen Puputan Klungkung,Klungkung,Budaya,Sudah sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI474,Museum Semarajaya,Klungkung,Budaya,Sudah sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI475,Panti Timrah,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI476,Pura Goa Giri Putri,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI477,Pura Paluang,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI478,Pura Puncak Mundi,Klungkung,Budaya,Belum sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI479,Wisata Goa Lawah,Klungkung,Budaya,Sudah sesuai standar,-8.55,115.43,Budaya,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI480,Gua Gala-Gala,Klungkung,Buatan,Belum sesuai standar,-8.55,115.43,Buatan,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI481,Jembatan Kuning (Yellow bridge),Klungkung,Buatan,Belum sesuai standar,-8.55,115.43,Buatan,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI482,Spot Selfie Goa Lawah,Klungkung,Buatan,Belum sesuai standar,-8.55,115.43,Buatan,25.79,29.64,22.71,79.15,1309.2,203,29.5,316,315.0,206925,656.9,4
+BALI483,Air Terjun dan Perkebunan Pujungan,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI484,Alas Kedaton,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI485,Areal Batukaru,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI486,Bedugul,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI487,Hutan Mekori,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI488,Jatiluwih,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI489,Kebun Raya Eka Karya Bedugul,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI490,Pantai Kelating,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI491,Pantai Pasut,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI492,Pantai Soka,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI493,Pantai Suraberata,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI494,Pantai Yeh Gangga,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI495,Sarin Buana,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI496,Tanah Lot,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI497,Ulun Danau Beratan,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI498,Yeh Panas Belulang,Tabanan,Alam,Belum sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI499,Yeh Panas dan Hutan Bambu Angseri,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI500,Yeh Panes Penatahan,Tabanan,Alam,Sudah sesuai standar,-8.54,115.13,Alam,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI501,Museum Subak,Tabanan,Budaya,Sudah sesuai standar,-8.54,115.13,Budaya,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI502,Puri Gede Kerambitan,Tabanan,Budaya,Sudah sesuai standar,-8.54,115.13,Budaya,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI503,Puri Anyar,Tabanan,Budaya,Belum sesuai standar,-8.54,115.13,Budaya,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI504,Taman Pujaan Bangsa Margarana,Tabanan,Budaya,Sudah sesuai standar,-8.54,115.13,Budaya,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10
+BALI505,Taman Kupu-Kupu Lestari,Tabanan,Buatan,Sudah sesuai standar,-8.54,115.13,Buatan,25.46,30.13,21.87,81.98,1885.2,215,27.3,316,1013.88,461630,455.32,10

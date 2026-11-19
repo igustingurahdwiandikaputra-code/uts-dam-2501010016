@@ -1,0 +1,1601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Data Daya Tarik Wisata Alam di Provinsi Bali | Satu Data Indonesia Provinsi Bali</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="http://balisatudata.baliprov.go.id/assets/img/favicon.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.min.css"
+        integrity="sha512-kq3FES+RuuGoBW3a9R2ELYKRywUEQv0wvPTItv3DSGqjpbNtGWVdvT8qwdKkqvPzT93jp8tSF4+oN4IeTEIlQA=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/select2-bootstrap-theme/0.1.0-beta.10/select2-bootstrap.css"
+        integrity="sha512-CbQfNVBSMAYmnzP3IC+mZZmYMP2HUnVkV4+PwuhpiMUmITtSpS7Prr3fNncV1RBOnWxzz4pYQ5EAGG4ck46Oig=="
+        crossorigin="anonymous" />
+    <link href="http://balisatudata.baliprov.go.id/assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="http://balisatudata.baliprov.go.id/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://balisatudata.baliprov.go.id/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="http://balisatudata.baliprov.go.id/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="http://balisatudata.baliprov.go.id/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="http://balisatudata.baliprov.go.id/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="http://balisatudata.baliprov.go.id/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.18/css/dataTables.bootstrap4.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/scripts/verify.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.2.96/css/materialdesignicons.min.css" rel="stylesheet">
+
+
+    <!-- Template Main CSS File -->
+    <link href="http://balisatudata.baliprov.go.id/assets/css/style.css" rel="stylesheet">
+    <link href="http://balisatudata.baliprov.go.id/css/app.css" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-NNDXTBW9B1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-NNDXTBW9B1');
+
+    </script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/instantsearch.css@7.1.0/themes/algolia.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/selectize@0.12.6/dist/css/selectize.css">
+    <link rel="stylesheet" href="http://balisatudata.baliprov.go.id/dist/leaflet.css">
+    <link rel="stylesheet" href="http://balisatudata.baliprov.go.id/dist/MarkerCluster.css">
+    <link rel="stylesheet" href="http://balisatudata.baliprov.go.id/dist/MarkerCluster.Default.css">
+    <link href='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css' rel='stylesheet' />
+    <link rel="stylesheet" href="http://balisatudata.baliprov.go.id/vendors/select2/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker3.css">
+    <link rel="stylesheet" href="http://balisatudata.baliprov.go.id/assets/css/maps.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.16.6/sweetalert2.min.css">
+    <style>
+        .chart-container {
+            width: 100%;
+            margin: 20px auto;
+        }
+    </style>
+
+    <style>
+        #header {
+            border-bottom: 5px solid #f5323c;
+        }
+
+        #header .logo img {
+            max-height: 50px;
+        }
+
+        .select2-container--default .select2-results__option--highlighted[aria-selected] {
+            background-color: #f5323c;
+        }
+
+        .section-bg {
+            background-color: #fef7f7;
+        }
+
+        /* .card-body table tbody > tr:last-child { background:#f5323c; font-weight: bold; color: #fff !important} */
+
+        /* Cookie Consent Styles */
+        .cookie-consent {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            backdrop-filter: blur(10px);
+            z-index: 9999;
+            padding: 20px;
+            box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+            animation: slideUp 0.5s ease-out;
+        }
+
+        .cookie-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .cookie-icon {
+            color: #f5323c;
+            font-size: 2.5rem;
+            flex-shrink: 0;
+        }
+
+        .cookie-text {
+            flex: 1;
+            min-width: 300px;
+        }
+
+        .cookie-text h5 {
+            margin: 0 0 10px 0;
+            color: #f5323c;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+
+        .cookie-text p {
+            margin: 0;
+            font-size: 0.95rem;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+
+        .cookie-buttons {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .cookie-buttons .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 25px;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .btn-accept {
+            background: #f5323c;
+            color: white;
+        }
+
+        .btn-decline {
+            background: transparent;
+            color: #d42a33;
+            border: 2px solid #d42a33;
+        }
+
+        .btn-link {
+            background: transparent;
+            color: #f5323c;
+            text-decoration: underline;
+        }
+
+        .btn-link:hover {
+            color: #d42a33;
+            text-decoration: none;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(0);
+                opacity: 1;
+            }
+            to {
+                transform: translateY(100%);
+                opacity: 0;
+            }
+        }
+
+        .cookie-consent.hiding {
+            animation: slideDown 0.5s ease-out forwards;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .cookie-content {
+                flex-direction: column;
+                text-align: center;
+                gap: 15px;
+            }
+
+            .cookie-icon {
+                font-size: 2rem;
+            }
+
+            .cookie-text {
+                min-width: auto;
+            }
+
+            .cookie-buttons {
+                justify-content: center;
+                width: 100%;
+            }
+
+            .cookie-buttons .btn {
+                flex: 1;
+                min-width: 120px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .cookie-consent {
+                padding: 15px;
+            }
+
+            .cookie-buttons {
+                flex-direction: column;
+                gap: 8px;
+            }
+
+            .cookie-buttons .btn {
+                width: 100%;
+                flex: none;
+            }
+        }
+
+    </style>
+    <style>
+    .selectize-input {
+          height: 40px;
+          font-weight: bold;
+          font-size: 15px;
+      }
+
+      .selectize-control.single .selectize-input, .selectize-control.single .selectize-input input {
+          width: 100% !important;
+      }
+
+      .selectize-input ::placeholder {
+          font-weight: bold;
+          font-size: 15px;
+      }
+
+      table.table-bordered.dataTable tbody th, table.table-bordered.dataTable tbody td {
+          border-bottom-width: 0;
+          text-align: right;
+      }
+
+      .sorting_1 {
+          border-bottom-width: 0;
+          text-align: left !important;
+      }
+
+      .table>:not(:last-child)>:last-child>* {
+          border-bottom-color: currentColor;
+          text-align: center;
+          vertical-align: middle;
+      }
+</style>
+</head>
+
+<body oncopy="return false" oncut="return false">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+
+            <div class="logo">
+                <h1><a href="http://balisatudata.baliprov.go.id"><img src="/assets/img/logo-satu-data.png"
+                            onmouseover="return speak('Satu Data Indonesia Provinsi Bali')" /></a></h1>
+                <!-- Uncomment below if you prefer to use an image logo -->
+                <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+            </div>
+
+            <nav id="navbar" class="navbar">
+                <ul>
+                                        <li>
+                        <a class="nav-link scrollto " href="http://balisatudata.baliprov.go.id"
+                            onmouseover="return speak('Menu Beranda')">
+                            Beranda
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto " href="http://balisatudata.baliprov.go.id/track-request-data"
+                            onmouseover="return speak('Menu Lacak Permintaan Informasi')">
+                            Lacak Permintaan Informasi
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto "
+                            href="http://balisatudata.baliprov.go.id/search-data" onmouseover="return speak('Menu Cari Data')">
+                            Cari Data
+                        </a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto "
+                            href="http://balisatudata.baliprov.go.id/kabupaten" onmouseover="return speak('Data Kabupaten')">
+                            Data Kabupaten
+                        </a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" onmouseover="return speak('Menu Peta')">
+                            <span>Peta</span>
+                            <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="http://balisatudata.baliprov.go.id/peta-cctv" target="_blank"
+                                    onmouseover="return speak('Menu Peta SisiTipi')">
+                                    Peta CCTV
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://balisatudata.baliprov.go.id/peta-geo-spasial" target="_blank"
+                                    onmouseover="return speak('Menu Peta Geo Spasial')">
+                                    Peta Geospasial
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://balisatudata.baliprov.go.id/peta-tata-ruang" target="_blank"
+                                    onmouseover="return speak('Menu Peta Tata Ruang')">
+                                    Peta Tata Ruang
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto "
+                            href="http://balisatudata.baliprov.go.id/application" onmouseover="return speak('Menu Daftar Aplikasi')">
+                            Daftar Aplikasi
+                        </a>
+                    </li>
+                                        <li>
+                        <button class="getstarted scrollto" id="voice_on_point" style="border: none"
+                            onclick="return set_voice()" onmouseover="return speak('Set Voice')">Voice : On</button>
+                    </li>
+                    <li>
+                                                <button class="getstarted scrollto" style="border: none"
+                            onclick="window.open('http://balisatudata.baliprov.go.id/backend/dashboard')"
+                            onmouseover="return speak('Sign In')">Sign In</button>
+                                            </li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
+
+        </div>
+    </header><!-- End Header -->
+
+        <main id="main">
+<section class="breadcrumbs">
+    <div class="container-fluid">
+
+      <div class="d-none d-sm-none d-md-block d-lg-block">
+          <div class="row">
+            <div class="col-md-6">
+                <br />
+                <h2 onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')">Data Daya Tarik Wisata Alam di Provinsi Bali</h2>
+            </div>
+            <div class="col-md-6">
+                <br />
+                <ol style="float: right">
+                <li><a href="http://balisatudata.baliprov.go.id" onmouseover="return speak('Beranda')">Beranda</a></li>
+                <li onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')">Data Daya Tarik Wisata Alam di Provinsi Bali...</li>
+                </ol>
+            </div>
+          </div>
+      </div>
+
+      <div class="d-block d-sm-block d-md-none d-lg-none">
+        <br /><br />
+        <h2 onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')">Data Daya Tarik Wisata Alam di Provinsi Bali</h2>
+        <ol style="margin-left: 10px">
+          <li><a href="http://balisatudata.baliprov.go.id" onmouseover="return speak('Beranda')">Beranda</a></li>
+          <li onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')">Data Daya Tarik Wisata Alam di Provinsi Bali...</li>
+        </ol>
+      </div>
+
+    </div>
+</section>
+
+<section class="inner-page" style="min-height: calc(100vh - 230px);">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-9">
+                
+                
+                <div class="d-flex flex-row">
+                    <div onmouseover="return speak('Masukkan Kata Kunci Pencarian')" style="width: 100%"><select id="autocomplete" style="width: 100%;"></select></div>
+                    <button type="button" class="btn btn-default" id="btnmic" onmouseover="return speak('Ucapkan Kata Kunci Pencarian')">
+                      <img src="http://balisatudata.baliprov.go.id/assets/img/mic.png" alt="" width="15px">
+                    </button>
+                  </div>
+            </div>
+            <div class="col-md-3">
+                <a id="quick_search" class="btn btn-primary btn-block" style="width: 100%" onmouseover="return speak('Tombol Cari Data')"><strong> Cari Data</strong></a>
+            </div>
+        </div>
+        <hr />
+        <div class="row">
+            <div class="col-md-12">
+                                                                            <form action="" method="get" class="mt-3">
+    <div class="row">
+        <div class="col-md-4 mb-3" onmouseover="return speak('Pilih Kabupaten')">
+            <label for="inputKabupaten" class="form-label">Kabupaten</label>
+            <select id="district_id" class="form-control select-filter w-100" name="district_id"><option selected="selected" value="">Semua Kabupaten</option><option value="1">Kabupaten Jembrana</option><option value="2">Kabupaten Tabanan</option><option value="3">Kabupaten Badung</option><option value="4">Kabupaten Gianyar</option><option value="5">Kabupaten Klungkung</option><option value="6">Kabupaten Bangli</option><option value="7">Kabupaten Karangasem</option><option value="8">Kabupaten Buleleng</option><option value="9">Kota Denpasar</option></select>
+        </div>
+        <div class="col-md-4 mb-3" onmouseover="return speak('Pilih Kecamatan')">
+            <label for="inputKabupaten" class="form-label">Kecamatan</label>
+            <select id="sub_district_id" class="form-control select-filter w-100" name="sub_district_id"><option selected="selected" value="">Semua Kecamatan</option></select>
+        </div>
+        <div class="col-md-4" onmouseover="return speak('Pilih Tahun')">
+            <label for="inputKabupaten" class="form-label">Tahun</label>
+            <select id="year" class="form-control select-filter w-100" name="year"><option value="">Pilih Tahun</option><option value="2021" selected="selected">2021</option></select>
+        </div>
+        <div class="col-md-4" onmouseover="return speak('Pilih Bulan')">
+            <label for="inputKabupaten" class="form-label">Bulan</label>
+            <select id="month" class="form-control select-filter w-100" name="month"><option selected="selected" value="">Semua Bulan</option><option value="1">Januari</option><option value="2">Februari</option><option value="3">Maret</option><option value="4">April</option><option value="5">Mei</option><option value="6">Juni</option><option value="7">Juli</option><option value="8">Agustus</option><option value="9">September</option><option value="10">Oktober</option><option value="11">November</option><option value="12">Desember</option></select>
+        </div>
+        <div class="col-md-4" onmouseover="return speak('Pilih Tanggal')">
+            <label for="inputKabupaten" class="form-label">Tanggal</label>
+            <input type="text" id="date" name="date" value="" class="form-control" style="padding: 6px 20px" readonly autocomplete="off">
+        </div>
+        <div class="col-md-4">
+            <label for="inputKabupaten" class="form-label">&nbsp;</label>
+            <button class="btn btn-primary w-100"  onmouseover="return speak('Tombol Lihat Data')">Lihat</button>
+        </div>
+    </div>
+</form>
+
+<div id="chart" class="card mt-4 d-none" style="padding: 20px">
+    <center><h3 class="mt-4" id="report_name1" class="report_label" onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')">Data Daya Tarik Wisata Alam di Provinsi Bali</h3></center><br />
+    <div class="row" id="filter_chart"></div>
+    <div class="row" id="parent_canvas"></div>
+    <div class="row"><div class="col-md-12" style="font-style: italic; text-align: right" id="source_chart" onmouseover="return speak($('#source_chart').text())"></div></div>
+</div>
+
+<div id="petaDigital" class="card mt-4">
+    <center><h3 class="mt-4" id="report_name2" class="report_label" onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')">Data Daya Tarik Wisata Alam di Provinsi Bali</h3></center><br />
+    <div id="map"></div><br />
+    <div class="container-fluid">
+        <div class="row"><div class="col-md-12" style="font-style: italic; text-align: right" id="source_map" onmouseover="return speak($('#source_map').text())"></div></div>
+    </div>
+</div>
+
+<div id="data" class="card mt-4 d-none">
+    <div class="card-body">
+        <center><h3 class="mt-4" id="report_name3" class="report_label" onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')">Data Daya Tarik Wisata Alam di Provinsi Bali</h3></center>
+        <div style="text-align: right">
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" onmouseover="return speak('Download Data')"><i class="bi bi-download"></i> Download</button>
+        </div>
+        <div class="table table-responsive mt-4">
+            <table class="datatable table table-striped table-bordered" id="datatable" style="width:100%"></table>
+        </div>
+        <div class="row"><div class="col-md-12" style="font-style: italic; text-align: right" id="source_table" onmouseover="return speak($('#source_table').text())"></div></div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel" onmouseover="return speak('Form Download Dokumen')">Form Download Dokumen</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background-color: white; border:none">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="alert alert-info" onmouseover="return speak('Informasi. Dokumen akan dikirim ke Email Anda setelah mengisi form berikut.')">
+                <strong>Informasi</strong><br /> Dokumen akan dikirim ke Email Anda setelah mengisi form berikut.
+            </div>
+            <form id="basic-form">
+                <input type="hidden" name="report_type_id" id="report_type_id" value="1609" />
+                <input type="hidden" name="date_input" id="date_input" value="2026-11-19" />
+                <div class="form-group row">
+                    <label for="staticEmail" class="col-sm-2 col-form-label" onmouseover="return speak('Dokumen')">Dokumen</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="document_name" readonly class="form-control-plaintext" onmouseover="return speak('Data Daya Tarik Wisata Alam di Provinsi Bali')" value="Data Daya Tarik Wisata Alam di Provinsi Bali">
+                    </div>
+                </div><br />
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label" onmouseover="return speak('Nama')">Nama (*)</label>
+                    <div class="col-sm-10">
+                        <input type="text" class="form-control" id="guest_name" name="guest_name" onmouseover="return speak('Inputkan Nama Anda')" placeholder="Nama Anda" required="required">
+                    </div>
+                </div><br />
+                <div class="form-group row">
+                    <label for="inputPassword" class="col-sm-2 col-form-label" onmouseover="return speak('Email')">Email (*)</label>
+                    <div class="col-sm-10">
+                        <input type="email" class="form-control" id="email" name="email" onmouseover="return speak('Inputkan Email Anda')" placeholder="Email Anda" required="required">
+                    </div>
+                </div><br />
+                <div class="form-group row">
+                    <label for="message-text" class="col-sm-2 col-form-label" onmouseover="return speak('Tujuan')">Tujuan (*)</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" id="reason" name="reason" onmouseover="return speak('Inputkan Tujuan Anda')" required="required"></textarea>
+                    </div>
+                  </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal" onmouseover="return speak('Tombol Close')">Close</button>
+          <button type="button" id="send_document" class="btn btn-primary"><i class="bi bi-download" onmouseover="return speak('Tombol Download Dokumen')"></i> Download Dokumen</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+                                                                                                            </div>
+        </div>
+    </div>
+</section>
+</main>
+    
+    <script>
+    // Fungsi untuk mengarahkan ke halaman root (/) saat tombol diklik
+    document.getElementById('btn-back').addEventListener('click', function () {
+        window.location.href = '/';
+    });
+</script>
+    
+    <div class="bsd-ui-invite" id="bsdUiInvite" role="dialog" aria-modal="true" aria-labelledby="bsdUiInviteTitle">
+    <div class="bsd-ui-invite__backdrop"></div>
+    <div class="bsd-ui-invite__dialog">
+                    <span class="bsd-ui-invite__badge">Beta</span>
+                <h5 class="bsd-ui-invite__title" id="bsdUiInviteTitle">Coba tampilan baru Bali Satu Data</h5>
+        <p class="bsd-ui-invite__text">
+            Kami sedang menguji tampilan baru yang lebih cepat dan lebih mudah digunakan
+            di perangkat apa pun. Anda bisa kembali ke tampilan saat ini kapan saja.
+        </p>
+        <div class="bsd-ui-invite__actions">
+            <form method="POST" action="http://balisatudata.baliprov.go.id/preferensi-tampilan">
+                <input type="hidden" name="_token" value="KroE1aHVsqKk436XpsHOZNFTe9yNMiwgnBAVRbhd" autocomplete="off">                <input type="hidden" name="variant" value="next">
+                <input type="hidden" name="redirect_to" value="https://balisatudata.baliprov.go.id/laporan/data-daya-tarik-wisata-alam-di-provinsi-bali?year=2021">
+                <button type="submit" class="bsd-ui-invite__btn bsd-ui-invite__btn--primary">
+                    Ya, coba tampilan baru
+                </button>
+            </form>
+            <form method="POST" action="http://balisatudata.baliprov.go.id/preferensi-tampilan/lewati">
+                <input type="hidden" name="_token" value="KroE1aHVsqKk436XpsHOZNFTe9yNMiwgnBAVRbhd" autocomplete="off">                <input type="hidden" name="redirect_to" value="https://balisatudata.baliprov.go.id/laporan/data-daya-tarik-wisata-alam-di-provinsi-bali?year=2021">
+                <button type="submit" class="bsd-ui-invite__btn bsd-ui-invite__btn--ghost">
+                    Nanti saja
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .bsd-ui-invite { position: fixed; inset: 0; z-index: 20000; display: flex;
+        align-items: center; justify-content: center; padding: 16px; }
+    .bsd-ui-invite__backdrop { position: absolute; inset: 0; background: rgba(15, 23, 42, .55); }
+    .bsd-ui-invite__dialog { position: relative; width: 100%; max-width: 420px; background: #fff;
+        border-radius: 14px; padding: 28px 26px 22px; box-shadow: 0 24px 60px rgba(15, 23, 42, .28);
+        text-align: left; }
+    .bsd-ui-invite__badge { display: inline-block; background: #fef2f2; color: #f4333f;
+        font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+        padding: 4px 10px; border-radius: 999px; margin-bottom: 12px; }
+    .bsd-ui-invite__title { font-size: 1.15rem; font-weight: 700; color: #0f172a; margin: 0 0 8px; }
+    .bsd-ui-invite__text { font-size: .9rem; line-height: 1.6; color: #475569; margin: 0 0 20px; }
+    .bsd-ui-invite__actions { display: flex; flex-direction: column; gap: 8px; }
+    .bsd-ui-invite__actions form { margin: 0; }
+    .bsd-ui-invite__btn { width: 100%; border: 0; border-radius: 8px; padding: 11px 16px;
+        font-size: .92rem; font-weight: 600; cursor: pointer; transition: background .15s ease; }
+    .bsd-ui-invite__btn--primary { background: #f4333f; color: #fff; }
+    .bsd-ui-invite__btn--primary:hover { background: #c0262f; }
+    .bsd-ui-invite__btn--ghost { background: transparent; color: #64748b; }
+    .bsd-ui-invite__btn--ghost:hover { background: #f1f5f9; }
+    @media (min-width: 576px) {
+        .bsd-ui-invite__actions { flex-direction: row-reverse; }
+        .bsd-ui-invite__btn { width: auto; }
+        .bsd-ui-invite__actions form { flex: 1; }
+    }
+</style>
+
+    
+    <div id="cookieConsent" class="cookie-consent" style="display: none;">
+        <div class="cookie-content">
+            <div class="cookie-icon">
+                <i class="bi bi-shield-check"></i>
+            </div>
+            <div class="cookie-text">
+                <h5>Kebijakan Cookie</h5>
+                <p>Kami menggunakan cookie untuk meningkatkan pengalaman Anda di situs web kami. Cookie membantu kami menganalisis lalu lintas situs dan menyediakan layanan yang lebih baik. Dengan melanjutkan menggunakan situs ini, Anda menyetujui penggunaan cookie kami.</p>
+            </div>
+            <div class="cookie-buttons">
+                <button id="acceptCookies" class="btn btn-accept">Terima Semua</button>
+                <button id="declineCookies" class="btn btn-decline">Tolak</button>
+                <a href="http://balisatudata.baliprov.go.id/privacy-policy" class="btn btn-link" target="_blank">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-12">
+                    <center>
+                        <img src="https://pse.layanan.go.id/api/storage/badge/badge_2057.png" alt="PSE">
+                    </center>
+                </div>
+                <div class="col-lg-12 text-lg-left text-center mt-2">
+                    <div class="copyright"
+                        onmouseover="return speak('Copyright Tim SPBE Diskominfos Provinsi Bali. All Rights Reserved')">
+                        &copy; Copyright <strong>Tim SPBE Diskominfos Provinsi Bali</strong>. All Rights Reserved
+                    </div>
+                </div>
+                <div class="col-lg-12 mt-2">
+                    <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+                        <a href="http://balisatudata.baliprov.go.id/about-us" onmouseover="return speak('Menu Tentang Kami')">
+                            Tentang Kami
+                        </a>
+                        <a href="http://balisatudata.baliprov.go.id/privacy-policy" onmouseover="return speak('Menu Privacy Policy')">
+                            Privacy Policy
+                        </a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End Footer -->
+
+    
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <div class="bsd-ui-switch">
+        <form method="POST" action="http://balisatudata.baliprov.go.id/preferensi-tampilan">
+            <input type="hidden" name="_token" value="KroE1aHVsqKk436XpsHOZNFTe9yNMiwgnBAVRbhd" autocomplete="off">            <input type="hidden" name="variant" value="next">
+            <input type="hidden" name="redirect_to" value="https://balisatudata.baliprov.go.id/laporan/data-daya-tarik-wisata-alam-di-provinsi-bali?year=2021">
+            <button type="submit"
+                    class="bsd-ui-switch__button"
+                    title="Coba Tampilan Baru"
+                    aria-label="Coba Tampilan Baru"
+                     onmouseover="return speak('Coba Tampilan Baru')" >
+                <svg class="bsd-ui-switch__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                     stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M8 3 4 7l4 4" />
+                    <path d="M4 7h16" />
+                    <path d="m16 21 4-4-4-4" />
+                    <path d="M20 17H4" />
+                </svg>
+                <span class="bsd-ui-switch__label">
+                    <span class="bsd-ui-switch__prefix">Coba </span>Tampilan Baru
+                </span>
+                                    <span class="bsd-ui-switch__badge">Beta</span>
+                            </button>
+        </form>
+    </div>
+
+    <style>
+        /*
+         | Plain CSS, not Tailwind: this partial lives outside the new design's
+         | @source glob, so utility classes used here would be purged from the
+         | bundle. Writing it once by hand also keeps the control identical in
+         | both designs, which is the point of making it float.
+         |
+         | Stacking: above the legacy back-to-top (996), below the new design's
+         | filter modal (9998) and the beta invitation (20000).
+         */
+        .bsd-ui-switch {
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            z-index: 9990;
+            margin: 0;
+        }
+
+        .bsd-ui-switch form {
+            margin: 0;
+        }
+
+        .bsd-ui-switch__button {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            border: 0;
+            border-radius: 999px;
+            padding: 12px 18px;
+            background: #f4333f;
+            color: #fff;
+            font-family: inherit;
+            font-size: 14px;
+            font-weight: 600;
+            line-height: 1;
+            white-space: nowrap;
+            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(15, 23, 42, .18), 0 2px 6px rgba(15, 23, 42, .12);
+            transition: background .15s ease, transform .15s ease, box-shadow .15s ease;
+        }
+
+        .bsd-ui-switch__button:hover {
+            background: #c0262f;
+            color: #fff;
+            transform: translateY(-2px);
+            box-shadow: 0 16px 32px rgba(15, 23, 42, .24), 0 3px 8px rgba(15, 23, 42, .14);
+        }
+
+        .bsd-ui-switch__button:active {
+            transform: translateY(0);
+        }
+
+        .bsd-ui-switch__button:focus-visible {
+            outline: 2px solid #0f172a;
+            outline-offset: 3px;
+        }
+
+        .bsd-ui-switch__icon {
+            width: 18px;
+            height: 18px;
+            flex: none;
+        }
+
+        .bsd-ui-switch__badge {
+            background: rgba(255, 255, 255, .22);
+            color: #fff;
+            font-size: 10px;
+            font-weight: 700;
+            letter-spacing: .06em;
+            text-transform: uppercase;
+            line-height: 1;
+            padding: 3px 7px;
+            border-radius: 999px;
+        }
+
+                /* The legacy layout parks its back-to-top control in this same corner. */
+        .back-to-top {
+            bottom: 76px;
+        }
+        
+        @media (max-width: 575.98px) {
+            .bsd-ui-switch {
+                right: 14px;
+                bottom: 14px;
+            }
+
+            /* Narrow screens keep the noun only: "Tampilan Baru" / "Tampilan Lama". */
+            .bsd-ui-switch__prefix {
+                display: none;
+            }
+
+            .bsd-ui-switch__button {
+                padding: 11px 15px;
+                font-size: 13px;
+            }
+
+                        .back-to-top {
+                bottom: 68px;
+            }
+                    }
+
+        @media (prefers-reduced-motion: reduce) {
+            .bsd-ui-switch__button {
+                transition: none;
+            }
+
+            .bsd-ui-switch__button:hover {
+                transform: none;
+            }
+        }
+
+        @media print {
+            .bsd-ui-switch {
+                display: none;
+            }
+        }
+    </style>
+
+    <!-- Vendor JS Files -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/assets/vendor/aos/aos.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="http://balisatudata.baliprov.go.id/assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/assets/vendor/php-email-form/validate.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/assets/vendor/purecounter/purecounter.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.18/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/assets/js/main.js"></script>
+    <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+    <script>
+        // $(document).ready(function(){
+        //   setTimeout(function() {
+        //     $('.card-text').click();
+        //     speak('Selamat Datang di Bali Satu Data');
+        // }, 2000);
+
+        // console.log(1);
+
+        // });
+        var voices;
+        var textToSpeech;
+        var setVoice;
+        const synth = window.speechSynthesis;
+        window.onload = (event) => {
+            // console.log('page is fully loaded');
+
+            window.micAccessTool = new MicAccessTool({
+                // link: 'http://your-awesome-website.com/your-accessibility-declaration.pdf',
+                // contact: 'mailto:your-mail@your-awesome-website.com',
+                buttonPosition: 'left', // default is 'left'
+                // forceLang: 'ru-RU' // default is 'en' may be 'he-IL', 'ru-RU', or 'fr_FR'
+            });
+
+            voices = synth.getVoices();
+            // console.log(localStorage.getItem("voice"));
+            if (localStorage.getItem("voice") == null) {
+                localStorage.setItem("voice", "On");
+                $('#voice_on_point').html('Voice : On');
+            } else {
+                $('#voice_on_point').html('Voice : ' + localStorage.getItem("voice"));
+            }
+        };
+
+        function set_voice() {
+            // console.log(localStorage.getItem("voice"));
+            item = localStorage.getItem("voice");
+            if (item == "On") {
+                localStorage.setItem("voice", "Off");
+                $('#voice_on_point').html('Voice : Off');
+                // speak('Voice On Point : Off');
+            } else if (item == "Off") {
+                localStorage.setItem("voice", "On");
+                $('#voice_on_point').html('Voice : On');
+                speak('Voice : On');
+            }
+        }
+
+        function speak(text) {
+            if (localStorage.getItem("voice") == "On") {
+                synth.cancel();
+                textToSpeech = new SpeechSynthesisUtterance(text);
+                textToSpeech.voice = voices.filter(function (voice) {
+                    return voice.name == 'Google Bahasa Indonesia';
+                })[0];
+
+                synth.speak(textToSpeech);
+            }
+        }
+
+        // Cookie Consent Functionality
+        $(document).ready(function() {
+            // Check if user has already made a choice
+            if (!localStorage.getItem('cookieConsent')) {
+                // Show cookie popup after 2 seconds
+                setTimeout(function() {
+                    $('#cookieConsent').fadeIn(500);
+                }, 2000);
+            }
+
+            // Accept cookies
+            $('#acceptCookies').click(function() {
+                localStorage.setItem('cookieConsent', 'accepted');
+                hideCookiePopup();
+
+                // Enable Google Analytics and other tracking
+                if (typeof gtag !== 'undefined') {
+                    gtag('consent', 'update', {
+                        'analytics_storage': 'granted'
+                    });
+                }
+
+                // Voice feedback if enabled
+                speak('Cookie diterima. Terima kasih!');
+            });
+
+            // Decline cookies
+            $('#declineCookies').click(function() {
+                localStorage.setItem('cookieConsent', 'declined');
+                hideCookiePopup();
+
+                // Disable Google Analytics and other tracking
+                if (typeof gtag !== 'undefined') {
+                    gtag('consent', 'update', {
+                        'analytics_storage': 'denied'
+                    });
+                }
+
+                // Voice feedback if enabled
+                speak('Cookie ditolak.');
+            });
+
+            function hideCookiePopup() {
+                $('#cookieConsent').addClass('hiding');
+                setTimeout(function() {
+                    $('#cookieConsent').hide().removeClass('hiding');
+                }, 500);
+            }
+
+            // Reset cookie consent (for testing purposes)
+            // Uncomment the line below to reset cookie consent on page load
+            // localStorage.removeItem('cookieConsent');
+        });
+
+    </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.bundle.min.js'></script>
+    <script src="http://balisatudata.baliprov.go.id/vendors/select2/select2.min.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/dist/leaflet.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/dist/leaflet-kmz.js"></script>
+    <script src="http://balisatudata.baliprov.go.id/dist/leaflet.markercluster-src.js"></script>
+    <script src="https://unpkg.com/leaflet.featuregroup.subgroup@1.0.2/dist/leaflet.featuregroup.subgroup.js"></script>
+    <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/10.16.6/sweetalert2.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/selectize@0.12.6/dist/js/standalone/selectize.min.js"></script>
+    
+    <script src="/js/autocomplete_index.min.js?id=d5442f3f29dbf308edae307b21ad9b3d"></script>
+        <script>
+        // const synth = window.speechSynthesis;
+        
+        $(document).ready( function () {
+            // var utterance1 = new SpeechSynthesisUtterance('Laporan Rancangan Anggaran Dana (RKT) Provinsi Bali. Jumlah Anggaran di Kabupaten Badung sebesar 33904923246');
+            // var voices = window.speechSynthesis.getVoices();
+            // utterance1.voice = voices.filter(function(voice) { return voice.name == 'Damayanti'; })[0];
+            // synth.speak(utterance1);
+            $('[name="year"]').select2();
+            $('[name="month"]').select2();
+            $('[name="district_id"]').select2();
+            $('[name="sub_district_id"]').select2();
+
+            $('#district_id').on('select2:open', function() {
+                $('#select2-district_id-results').on('mouseover', function(e) {
+                    
+                    if($('.select2-results__option--highlighted').text() != '') {
+                    speak($('.select2-results__option--highlighted').text())
+                    }
+            
+                    if($('.select2-results__message').text() == 'No results found') {
+                    speak($('Data tidak ditemukan'))
+                    }
+                })
+            })
+
+            $('#sub_district_id').on('select2:open', function() {
+                $('#select2-sub_district_id-results').on('mouseover', function(e) {
+                    
+                    if($('.select2-results__option--highlighted').text() != '') {
+                    speak($('.select2-results__option--highlighted').text())
+                    }
+            
+                    if($('.select2-results__message').text() == 'No results found') {
+                    speak($('Data tidak ditemukan'))
+                    }
+                })
+            })
+
+            $('#year').on('select2:open', function() {
+                $('#select2-year-results').on('mouseover', function(e) {
+                
+                if($('.select2-results__option--highlighted').text() != '') {
+                    speak($('.select2-results__option--highlighted').text())
+                }
+            
+                if($('.select2-results__message').text() == 'No results found') {
+                    speak($('Data tidak ditemukan'))
+                }
+                })
+            })
+
+            $('#month').on('select2:open', function() {
+                $('#select2-month-results').on('mouseover', function(e) {
+                
+                if($('.select2-results__option--highlighted').text() != '') {
+                    speak($('.select2-results__option--highlighted').text())
+                }
+            
+                if($('.select2-results__message').text() == 'No results found') {
+                    speak($('Data tidak ditemukan'))
+                }
+                })
+            })
+
+            // $('#date').on('select2:open', function() {
+            //     $('#select2-date-results').on('mouseover', function(e) {
+                
+            //     if($('.select2-results__option--highlighted').text() != '') {
+            //         speak($('.select2-results__option--highlighted').text())
+            //     }
+            
+            //     if($('.select2-results__message').text() == 'No results found') {
+            //         speak($('Data tidak ditemukan'))
+            //     }
+            //     })
+            // })
+
+            $.getJSON("http://balisatudata.baliprov.go.id/api/v1/month/1609?year=2021", function(data){
+                $('#month').empty();
+                $('#month').append(new Option('Semua Bulan', ''));
+                $.each(data.data, function(key, val){
+                    $('#month').append(new Option(val.name, val.id));
+                })
+                $('#month').val('');
+                $('#month').trigger('change');
+            });
+
+            updateDatePicker();
+
+            var map = L.map('map', {
+                fullscreenControl: {
+                    pseudoFullscreen: false
+                },
+                scrollWheelZoom: false
+            });
+            map.setView(new L.LatLng(-8.4510183,115.1016095), 10);
+            //
+            var BaliMap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', {
+                maxZoom: 19,
+                opacity: 0.90,
+                attribution: 'Tiles &copy; Esri &mdash; Source: Esri, DeLorme, NAVTEQ, USGS, Intermap, iPC, NRCAN, Esri Japan, METI, Esri China (Hong Kong), Esri (Thailand), TomTom, 2012'
+            });
+            BaliMap.addTo(map);
+
+            // marker cluster
+            var markers = L.markerClusterGroup({
+                maxClusterRadius: 30,
+                showCoverageOnHover: false,
+                iconCreateFunction: function(cluster) {
+                    return L.divIcon({
+                        iconSize: [50,50],
+                        iconAnchor: [25,25],
+                        html: '<b>' + cluster.getChildCount() + '</b>'
+                    });;
+                }
+            });
+
+            map.addLayer(markers);
+
+            var opdIcon = L.icon({
+                iconUrl : '/assets/img/statistic.png',
+                iconSize:     [24, 37], // size of the icon
+                iconAnchor:   [12, 37], // point of the icon which will correspond to marker's location
+                popupAnchor:  [0, -18] // point from which the popup should open relative to the iconAnchor
+            });
+
+            var control = L.control.layers(null, null).addTo(map);
+
+            const promise1 = new Promise((resolve, reject) => {
+                // setTimeout(() => {
+                    $.getJSON("http://balisatudata.baliprov.go.id/api/v1/districts-for-maps", function(data) {
+                        // Instantiate KMZ parser (async)
+                        var kmzParser = new L.KMZParser({
+                            onKMZLoaded: function(kmz_layers, name) {
+                                // add layer control on screen
+                                control.addBaseLayer(kmz_layers, 'Kabupaten');
+
+                                // kabGroup = L.addOverlay(kmz_layers, 'Kabupaten');
+                                // get all sub layer on kmz_layers
+                                var layers = kmz_layers.getLayers()[0].getLayers();
+
+                                var ada=0;
+                                layers.forEach(function(layer){
+                                    // extract data from sub layer
+                                    var kab  = layer.feature.properties.NAME_2;
+                                    var prov = layer.feature.properties.NAME_1;
+                                    var id   = layer.feature.properties.ID;
+                                    // var regionIndex = (id+'|'+kab).toUpperCase();
+                                    // console.log(regionIndex);
+                                    // layer.bindPopup(atob(data['data'][id]["popupData"]),{maxWidth : "auto"});
+                                    layer.bindTooltip('Kabupaten : '+kab);
+                                    //
+                                    layer.feature.properties.stroke = '#888888FF';
+                                    layer.feature.properties.fill = data['data'][id]['color']; // CC = transparent level (00 sd FF)
+                                    layer.feature.properties.opacity = 0.95;
+
+                                });
+                                kmz_layers.addTo(map);
+                            }
+                        });
+                        //
+                        kmzParser.load('/new-kmz/bali-kabupaten.kmz');
+                        //
+                        // var control = L.control.layers(null, null, { collapsed:false }).addTo(map);
+                        resolve(data);
+                        $('.progress-bar').attr({
+                            'style' : 'width: 15%;',
+                            'aria-valuenow' : '15'
+                        }).text('15%');
+                    });
+                // }, 50);
+            });
+
+            const promise2 = new Promise((resolve, reject) => {
+                // setTimeout(() => {
+                    $.getJSON("http://balisatudata.baliprov.go.id/api/v1/sub-districts-for-maps", function(data) {
+                        // Instantiate KMZ parser (async)
+                        var kmzParser = new L.KMZParser({
+                            onKMZLoaded: function(kmz_layers, name) {
+                                // add layer control on screen
+                                control.addBaseLayer(kmz_layers, "Kecamatan");
+
+                                // get all sub layer on kmz_layers
+                                var layers = kmz_layers.getLayers()[0].getLayers();
+
+                                var ada=0;
+                                layers.forEach(function(layer){
+                                    // extract data from sub layer
+                                    var kec  = layer.feature.properties.NAME_3;
+                                    var kab  = layer.feature.properties.NAME_2;
+                                    var prov = layer.feature.properties.NAME_1;
+                                    var id   = layer.feature.properties.ID;
+                                    // var regionIndex = (id+'|'+kab+'|'+kec).toUpperCase();
+                                    // console.log(regionIndex);
+                                    // layer.bindPopup(atob(data['data'][id]["popupData"]),{maxWidth : "auto"});
+                                    layer.bindTooltip('Kecamatan : '+kec);
+                                    //
+                                    layer.feature.properties.stroke = '#888888FF';
+                                    layer.feature.properties.fill = data['data'][id]['color']; // CC = transparent level (00 sd FF)
+                                    layer.feature.properties.opacity = 0.95;
+                                });
+                                // add kmz layer to maps
+                                // kmz_layers.addTo(map);
+                            }
+                        });
+                        //
+                        kmzParser.load('/new-kmz/bali-kecamatan.kmz');
+                        //
+                        // var control = L.control.layers(null, null, { collapsed:false }).addTo(map);
+                        resolve(data);
+                        $('.progress-bar').attr({
+                            'style' : 'width: 30%;',
+                            'aria-valuenow' : '30'
+                        }).text('30%');
+                    });
+                // }, 100);
+            });
+
+            Promise.all([
+                promise1,
+                promise2
+            ]).then((values) => {
+                console.log('Show Map');
+            });
+
+            if($('[name="year"]').val() != ''){
+            $.ajax({
+                type: 'GET',
+                dataType: 'json',
+                url: "http://balisatudata.baliprov.go.id/api/v1/report/territory/data",
+                data: {
+                    type: "field",
+                    report_type_id: 1609,
+                    year: "2021",
+                    month: "",
+                    date: "",
+                    district_id: "",
+                    sub_district_id: "",
+                },
+                success: function(data) {
+                    if(data.status != 500){
+                        var tableHeaders = '';
+                        let fields = data;
+                        $.each(data, function(i, val){
+                            tableHeaders += "<th style='min-width:150px'>" + val + "</th>";
+                        });
+
+                        $("#datatable").append('<thead class="thead" style="background-color: #F4333D; color: #fff"><tr>' + tableHeaders + '</tr></thead></table>');
+
+                        $('#datatable').DataTable( {
+                            ajax: {
+                                url: "http://balisatudata.baliprov.go.id/api/v1/report/territory/data",
+                                data : {
+                                    type: "datatables",
+                                    report_type_id: 1609,
+                                    year: "2021",
+                                    month: "",
+                                    date: "",
+                                    district_id: "",
+                                    sub_district_id: "",
+                                },
+                            },
+                            "lengthMenu": [[15, 25, 50, 100, -1], [15, 25, 50, 100, "All"]],
+                            rowCallback: function(row, data) {
+                                // speak(data[i] + ' ' + fields[i+1] + ' ' + )
+                                let sentence = '';
+                                for(var i = 0; i < fields.length; i++){
+                                    if(i > 0){
+                                        sentence += fields[i];
+                                    }
+                                    sentence += ' ';
+                                    sentence += data[i];
+                                    sentence += ', ';
+                                }
+                                // console.log(sentence);
+                                $(row).attr('onmouseover', 'return speak("'+sentence+'")');
+                                // console.log(data);
+                                // console.log(fields);
+                                // i = i + 1;
+                            }
+                        });
+
+                        $('#data').removeClass('d-none');
+                    }
+                }
+            });
+
+            $.ajax({
+                type: 'GET',
+                dataType: 'json',
+                url: "http://balisatudata.baliprov.go.id/api/v1/report/territory/chart",
+                data: {
+                    report_type_id: 1609,
+                    year: "2021",
+                    month: "",
+                    date: "",
+                    district_id: "",
+                    sub_district_id: "",
+                },
+                success: function(data) {
+
+                    let chart_pie = [];
+                    let labels = [];
+                    let colors = [];
+                    let chart = [];
+                    let bar = 0;
+                    let pie = 0;
+                    let pick = [];
+
+                    $('#filter_chart').append('<div class="col-md-12" id="col_chart" onmouseover="return speak('+"'Pilih Grafik'"+')"><label for="inputChart" class="form-label">Pilih Grafik</label><select class="form-control select-filter" name="chart_type" id="chart_type" style="width: 100%" multiple="true" placeholder="Pilih Grafik"></select><br /><hr /></div>')
+                    $('.select-filter').select2();
+                    $('#chart_type').on('select2:open', function() {
+                        $('#select2-chart_type-results').on('mouseover', function(e) {
+                        
+                        if($('.select2-results__option--highlighted').text() != '') {
+                            speak($('.select2-results__option--highlighted').text())
+                        }
+                    
+                        if($('.select2-results__message').text() == 'No results found') {
+                            speak($('Data tidak ditemukan'))
+                        }
+                        })
+                    })
+
+                    $.each(data.data, function(key, val){
+                        $('#parent_canvas').append('<div class="col-md-6" id="container'+ key +'" style="display: none"><div class="table-responsive"><canvas id="myChart'+ key +'" style="width: 100%; min-height: 300px;" class="table"></canvas><br /><br /></div></div>');
+                        $('#chart_type').append(new Option(key, key));
+                        var dynamicColors = function() {
+                            var r = Math.floor(Math.random() * 255);
+                            var g = Math.floor(Math.random() * 255);
+                            var b = Math.floor(Math.random() * 255);
+                            return "rgb(" + r + "," + g + "," + b + ")";
+                        };
+
+                        // $('#chart').append('<canvas id="myChart'+ key +'" style="width: 100%; height: 500px;"></canvas><br /><br />');
+
+                        if(key == 'doughnut' || key == 'pie' || key == 'polarArea'){
+                            if(jQuery.isEmptyObject(val.data) == false){
+                                if(labels.length == 0){
+                                    val.labels.forEach(function(lbl){
+                                        labels.push(lbl);
+                                        colors.push(dynamicColors());
+                                    })
+                                }
+                                if(chart_pie.length == 0){
+                                    val.data.forEach(function(report){
+                                        chart_pie.push({
+                                            data: report.datas,
+                                            backgroundColor: colors,
+                                            label: report.label,
+                                            labels: labels
+                                        });
+                                    })
+                                }
+
+                                let newchart = new Chart(document.getElementById('myChart' + key), {
+                                    type: key,
+                                    data: {
+                                        labels: labels,
+                                        datasets: chart_pie
+                                    },
+                                    options: {
+                                    scales: {
+                                        yAxes: [{
+                                        gridLines: {
+                                            display: false,
+                                            drawBorder: false,
+                                        },
+                                        ticks: {
+                                            display: false,
+                                            beginAtZero: true,
+                                            callback: function(value, index, values) {
+                                                if(parseInt(value) >= 1000){
+                                                return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                                                } else {
+                                                return value;
+                                                }
+                                            }
+                                        }
+                                        }]
+                                    },
+                                    tooltips: {
+                                        callbacks: {
+                                            label: function(tooltipItem, data) {
+                                            var dataset = data.datasets[tooltipItem.datasetIndex];
+                                            var index = tooltipItem.index;
+                                                if(parseInt(dataset.data[index]) >= 1000){
+                                                    speak(dataset.label + ' - ' + dataset.labels[index] + ": " + dataset.data[index]);
+                                                    return dataset.label + ' - ' + dataset.labels[index] + ": " + dataset.data[index].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                                                } else {
+                                                    speak(dataset.label + ' - ' + dataset.labels[index] + ": " + dataset.data[index]);
+                                                    return dataset.label + ' - ' + dataset.labels[index] + ": " + dataset.data[index];
+                                                }
+                                            }
+                                        }
+                                    },
+                                    responsive: true,
+                                    barValueSpacing: 2
+                                    }
+                                });
+
+                                if(pie == 0){
+                                    $('#container'+ key).show();
+                                    pick.push(key);
+                                    pie = pie + 1;
+                                }
+                            }
+                        }else{
+                            if(jQuery.isEmptyObject(val.data) == false){
+                                if(chart.length == 0){
+                                    val.data.forEach(function (report) {
+                                        chart.push({
+                                            label: report.labels,
+                                            backgroundColor: dynamicColors(),
+                                            data: report.datas
+                                        });
+                                    });
+                                }
+
+                                let newchart = new Chart(document.getElementById('myChart' + key), {
+                                    type: key,
+                                    data: {
+                                        labels: val.labels,
+                                        datasets: chart
+                                    },
+                                    options: {
+                                        scales: {
+                                        xAxes: [{
+                                            ticks: {
+                                                beginAtZero: true,
+                                                callback: function (t) {
+                                                    return t;
+                                                }
+                                            }
+                                        }],
+                                        yAxes: [{
+                                        ticks: {
+                                            beginAtZero: true,
+                                            callback: function(value, index, values) {
+                                                if(parseInt(value) >= 1000){
+                                                return value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                                                } else {
+                                                return value;
+                                                }
+                                            }
+                                        }
+                                        }]
+                                    },
+                                    tooltips: {
+                                        callbacks: {
+                                            label: function(tooltipItem, data) {
+                                                var dataset = data.datasets[tooltipItem.datasetIndex];
+                                                var index = tooltipItem.index;
+                                                if(parseInt(dataset.data[index]) >= 1000){
+                                                    // console.log(dataset);
+                                                    speak(dataset.label + ' - ' + data.labels[index] + ": " + dataset.data[index]);
+                                                    return dataset.data[index].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+                                                }else{
+                                                    // console.log(dataset);
+                                                    speak(dataset.label + ' - ' + data.labels[index] + ": " + dataset.data[index]);
+                                                    return dataset.data[index];
+                                                }
+                                            }
+                                        }
+                                    },
+                                    responsive: true,
+                                    barValueSpacing: 2
+                                    }
+                                });
+                            }
+                            if(bar == 0){
+                                $('#container'+ key).show();
+                                pick.push(key);
+                                bar = bar + 1;
+                            }
+                        }
+                        $('#chart_type').val(pick);
+                        $('#chart_type').trigger('change');
+                    });
+
+                    if(data.status == 200){
+                    $('#chart').removeClass('d-none');
+                    $('#chart_type').on("select2:select", function(event){
+                        $(event.currentTarget).find("option:selected").each(function(i, selected){
+                            $('#container'+ $(selected).text()).show();
+                        });
+                    });
+
+                    $('#chart_type').on("select2:unselect", function(e){
+                        var data = e.params.data;
+                        $('#container'+ data.text).hide();
+                    });
+                    }
+                }
+            });
+            }
+
+            $('#district_id').change(function(){
+                if($('#district_id').val() != ""){
+                    $('#sub_district_id').empty();
+                    $('#sub_district_id').append(new Option('Semua Kecamatan', ''));
+                    $.get('http://balisatudata.baliprov.go.id/api/v1/sub-districts/'+$('#district_id').val(), function(data, status){
+                        $.each(data.data, function(key, val){
+                            $('#sub_district_id').append(new Option(val.name, val.id));
+                        })
+                    });
+                    $('#sub_district_id').trigger('change');
+                } else {
+                    $('#sub_district_id').empty();
+                    $('#sub_district_id').append(new Option('Semua Kecamatan', ''));
+                }
+            })
+
+            $.getJSON('http://balisatudata.baliprov.go.id/api/v1/report/territory/location?district_id=&sub_district_id=&report_type_id=1609&year=2021&month=&date=', function(data) {
+                if(typeof data.data != 'string'){
+                    if(data.data.length > 0){
+                        $.each(data.data, function(key, val){
+                            var marker = L.marker([val.lat,val.lng],{icon: opdIcon}).bindPopup(atob(val.popupData));
+                            marker.bindTooltip('Nama : '+val.name);
+                            // schoolGroup.push(marker);
+                            markers.addLayer(marker);
+                        });
+                        $('#petaDigital').show();
+                        map.invalidateSize();
+                    }else{
+                        $('#petaDigital').hide();
+                    }
+                }else{
+                    $('#petaDigital').hide();
+                }
+            });
+
+            addSourceDate('http://balisatudata.baliprov.go.id/api/v1/report/territory/last-update?district_id=&sub_district_id=&report_type_id=1609&year=2021&month=&date=', [
+                '#source_chart',
+                '#source_map',
+                '#source_table'
+            ])
+        } );
+
+        $('#send_document').click(function(){
+            var date_input = '';
+            if($('#days').val() != '')
+                date_input = $('#year').val() + '-' + $('#month').val() + '-' + $('#days').val();
+            if($("#basic-form").valid()){
+                $.post('http://balisatudata.baliprov.go.id/api/v1/report/download-report', {
+                    report_type_id : $('#report_type_id').val(),
+                    email : $('#email').val(),
+                    guest_name : $('#guest_name').val(),
+                    reason : $('#reason').val(),
+                    year: "2021",
+                    month: "",
+                    date: ""
+                }, function(data, status){
+                    Swal.fire({
+                        title: 'Berhasil',
+                        html: 'Terima Kasih, File telah berhasil dikirimkan ke email Anda',
+                        icon: 'success',
+                        timer: 6000,
+                        timerProgressBar: true
+                    }).then(function(){
+                        $('#exampleModal').modal('hide');
+                        $('#guest_name').val('');
+                        $('#email').val('');
+                        $('#reason').val('');
+                    });
+
+                    speak('Berhasil. Terima Kasih, File telah berhasil dikirimkan ke email Anda');
+                })
+            }else{
+                Swal.fire({
+                    title: 'Validasi Salah',
+                    html: 'Mohon inputkan form dengan benar, semua field wajib diisi dan pastikan alamat email valid',
+                    icon: 'error',
+                    timer: 6000,
+                    timerProgressBar: true
+                })
+
+                speak('Validasi Salah. Mohon inputkan form dengan benar, semua field wajib diisi dan pastikan alamat email valid.')
+            }
+        })
+
+        function addSourceDate(url, elements){
+            $.get(url, function(data, status){
+                elements.forEach(function(item, index){
+                    if(data.data.opd != null)
+                        $(item).html('(' + data.data.opd + ', ' + data.data.date + ')');
+                    else
+                        $(item).html('(' + data.data.date + ')');
+                });
+            })
+        }
+
+        $('#year').change(function(){
+            $('[name="date"]').val("");
+            $.getJSON("http://balisatudata.baliprov.go.id/api/v1/month/1609?year=" + $('#year').val(), function(data){
+                $('#month').empty();
+                $('#month').append(new Option('Semua Bulan', ''));
+                $.each(data.data, function(key, val){
+                    $('#month').append(new Option(val.name, val.id));
+                })
+                $('#month').trigger('change');
+            });
+            updateDatePicker();
+        });
+
+        $('#month').change(function(){
+            $('[name="date"]').val("");
+            updateDatePicker();
+        });
+
+        function updateDatePicker()
+        {
+            var year = $('[name="year"').val();
+            var month = $('[name="month"').val();
+            // var define_date = $('#date').datepicker();
+            // $('[name="date"]').attr('readonly', true);
+            $('#date').datepicker("remove");
+
+            if(month && year){
+                // $('[name="date"]').attr('readonly', false);
+
+                $.getJSON("http://balisatudata.baliprov.go.id/api/v1/date/1609?year=" + year + '&month=' + month, function(data){
+                    var date = new Date(`${year}-${month}-01`);
+                    var firstDay = new Date(date.getFullYear(), date.getMonth(), 1);
+                    var lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+                    var enableDates = [];
+
+                    $.each(data.data, function(key, val){
+                        enableDates.push(val.id + '-' + month + '-' + year);
+                    })
+
+                    $('#date').datepicker({
+                        format: 'dd-mm-yyyy',
+                        startDate: firstDay,
+                        endDate: lastDay,
+                        beforeShowDay: function(date){
+                            dmy = date.getDate() + "-" + (date.getMonth() + 1) + "-" + date.getFullYear();
+                            if(enableDates.indexOf(dmy) != -1){
+                                return true;
+                            }
+                            else{
+                                return false;
+                            }
+                        }
+                    });
+                                    });
+            }
+        }
+    </script>
+    <script>
+        function resizeIframe(obj) {
+            obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
+        }
+    </script>
+</body>
+
+</html>
